@@ -1,0 +1,9 @@
+{
+  "index": 4,
+  "deconstruction_planner": {
+    "item": "deconstruction-planner",
+    "label": "[item=landfill]",
+    "version": 562949957025792,
+    "settings": {"tile_filters": [{"name": "landfill", "index": 1}]}
+  }
+}

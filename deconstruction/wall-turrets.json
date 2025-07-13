@@ -1,0 +1,16 @@
+{
+  "index": 12,
+  "deconstruction_planner": {
+    "item": "deconstruction-planner",
+    "label": "Wall Turrets",
+    "version": 562949957025792,
+    "settings": {
+      "tile_selection_mode": 2,
+      "entity_filters": [
+        {"name": "gun-turret", "index": 0},
+        {"name": "inserter", "index": 1},
+        {"name": "small-electric-pole", "index": 2}
+      ]
+    }
+  }
+}

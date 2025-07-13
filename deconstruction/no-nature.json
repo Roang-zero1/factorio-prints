@@ -1,0 +1,9 @@
+{
+  "index": 1,
+  "deconstruction_planner": {
+    "item": "deconstruction-planner",
+    "label": "No Nature",
+    "version": 562949957025792,
+    "settings": {"entity_filter_mode": 1, "trees_and_rocks_only": true}
+  }
+}

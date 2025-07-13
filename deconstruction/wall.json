@@ -1,0 +1,28 @@
+{
+  "index": 13,
+  "deconstruction_planner": {
+    "item": "deconstruction-planner",
+    "label": "Wall",
+    "version": 562949957025792,
+    "settings": {
+      "tile_selection_mode": 2,
+      "entity_filters": [
+        {"name": "transport-belt", "index": 0},
+        {"name": "inserter", "index": 1},
+        {"name": "small-electric-pole", "index": 2},
+        {"name": "pipe-to-ground", "index": 3},
+        {"name": "gun-turret", "index": 10},
+        {"name": "flamethrower-turret", "index": 11},
+        {"name": "gun-turret", "comparator": "=", "index": 12, "quality": "normal"},
+        {"name": "stone-wall", "index": 20},
+        {"name": "gate", "index": 21}
+      ],
+      "icons": [
+        {"index": 1, "signal": {"name": "stone-wall"}},
+        {"index": 2, "signal": {"name": "gun-turret"}},
+        {"index": 3, "signal": {"name": "laser-turret"}},
+        {"index": 4, "signal": {"name": "flamethrower-turret"}}
+      ]
+    }
+  }
+}

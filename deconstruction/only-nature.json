@@ -1,0 +1,9 @@
+{
+  "index": 2,
+  "deconstruction_planner": {
+    "item": "deconstruction-planner",
+    "label": "Only Nature",
+    "version": 562949957025792,
+    "settings": {"trees_and_rocks_only": true}
+  }
+}
