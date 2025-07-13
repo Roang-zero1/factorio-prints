@@ -1,0 +1,10 @@
+{
+  "index": 0,
+  "blueprint_book": {
+    "item": "blueprint-book",
+    "label": "Starter - No Beacons",
+    "active_index": 0,
+    "version": 562949957025792,
+    "icons": [{"index": 1, "signal": {"name": "assembling-machine-1"}}]
+  }
+}

@@ -1,0 +1,513 @@
+{
+  "index": 1,
+  "blueprint": {
+    "item": "blueprint",
+    "label": "Steel smelter",
+    "shift_x": -90,
+    "shift_y": -92,
+    "version": 562949957025792,
+    "entities": [
+      {
+        "name": "beacon",
+        "items": [
+          {
+            "id": {"name": "speed-module-3"},
+            "items": {"in_inventory": [{"inventory": 1, "stack": 0}, {"inventory": 1, "stack": 1}]}
+          }
+        ],
+        "position": {"x": -20.5, "y": -2.5}
+      },
+      {
+        "name": "beacon",
+        "items": [
+          {
+            "id": {"name": "speed-module-3"},
+            "items": {"in_inventory": [{"inventory": 1, "stack": 0}, {"inventory": 1, "stack": 1}]}
+          }
+        ],
+        "position": {"x": -17.5, "y": -2.5}
+      },
+      {
+        "name": "beacon",
+        "items": [
+          {
+            "id": {"name": "speed-module-3"},
+            "items": {"in_inventory": [{"inventory": 1, "stack": 0}, {"inventory": 1, "stack": 1}]}
+          }
+        ],
+        "position": {"x": -10.5, "y": -2.5}
+      },
+      {
+        "name": "beacon",
+        "items": [
+          {
+            "id": {"name": "speed-module-3"},
+            "items": {"in_inventory": [{"inventory": 1, "stack": 0}, {"inventory": 1, "stack": 1}]}
+          }
+        ],
+        "position": {"x": -7.5, "y": -2.5}
+      },
+      {
+        "name": "beacon",
+        "items": [
+          {
+            "id": {"name": "speed-module-3"},
+            "items": {"in_inventory": [{"inventory": 1, "stack": 0}, {"inventory": 1, "stack": 1}]}
+          }
+        ],
+        "position": {"x": -0.5, "y": -2.5}
+      },
+      {
+        "name": "beacon",
+        "items": [
+          {
+            "id": {"name": "speed-module-3"},
+            "items": {"in_inventory": [{"inventory": 1, "stack": 0}, {"inventory": 1, "stack": 1}]}
+          }
+        ],
+        "position": {"x": 2.5, "y": -2.5}
+      },
+      {
+        "name": "beacon",
+        "items": [
+          {
+            "id": {"name": "speed-module-3"},
+            "items": {"in_inventory": [{"inventory": 1, "stack": 0}, {"inventory": 1, "stack": 1}]}
+          }
+        ],
+        "position": {"x": -20.5, "y": 15.5}
+      },
+      {
+        "name": "beacon",
+        "items": [
+          {
+            "id": {"name": "speed-module-3"},
+            "items": {"in_inventory": [{"inventory": 1, "stack": 0}, {"inventory": 1, "stack": 1}]}
+          }
+        ],
+        "position": {"x": -17.5, "y": 15.5}
+      },
+      {
+        "name": "beacon",
+        "items": [
+          {
+            "id": {"name": "speed-module-3"},
+            "items": {"in_inventory": [{"inventory": 1, "stack": 0}, {"inventory": 1, "stack": 1}]}
+          }
+        ],
+        "position": {"x": -10.5, "y": 15.5}
+      },
+      {
+        "name": "beacon",
+        "items": [
+          {
+            "id": {"name": "speed-module-3"},
+            "items": {"in_inventory": [{"inventory": 1, "stack": 0}, {"inventory": 1, "stack": 1}]}
+          }
+        ],
+        "position": {"x": -7.5, "y": 15.5}
+      },
+      {
+        "name": "beacon",
+        "items": [
+          {
+            "id": {"name": "speed-module-3"},
+            "items": {"in_inventory": [{"inventory": 1, "stack": 0}, {"inventory": 1, "stack": 1}]}
+          }
+        ],
+        "position": {"x": -0.5, "y": 15.5}
+      },
+      {
+        "name": "beacon",
+        "items": [
+          {
+            "id": {"name": "speed-module-3"},
+            "items": {"in_inventory": [{"inventory": 1, "stack": 0}, {"inventory": 1, "stack": 1}]}
+          }
+        ],
+        "position": {"x": 2.5, "y": 15.5}
+      },
+      {"name": "bulk-inserter", "direction": 8, "position": {"x": -0.5, "y": 5.5}},
+      {"name": "bulk-inserter", "position": {"x": -0.5, "y": 7.5}},
+      {"name": "bulk-inserter", "direction": 8, "position": {"x": 2.5, "y": 5.5}},
+      {"name": "bulk-inserter", "position": {"x": 2.5, "y": 7.5}},
+      {"name": "display-panel", "icon": {"name": "calcite"}, "position": {"x": 5.5, "y": 5.5}},
+      {"name": "display-panel", "icon": {"name": "iron-ore"}, "position": {"x": 5.5, "y": 6.5}},
+      {"name": "express-transport-belt", "direction": 8, "position": {"x": 3.5, "y": 5.5}},
+      {"name": "express-transport-belt", "direction": 12, "position": {"x": 0.5, "y": 6.5}},
+      {"name": "express-transport-belt", "direction": 12, "position": {"x": 3.5, "y": 6.5}},
+      {
+        "name": "express-underground-belt",
+        "direction": 12,
+        "type": "output",
+        "position": {"x": -28.5, "y": 6.5}
+      },
+      {
+        "name": "express-underground-belt",
+        "direction": 12,
+        "type": "input",
+        "position": {"x": -19.5, "y": 6.5}
+      },
+      {
+        "name": "express-underground-belt",
+        "direction": 12,
+        "type": "output",
+        "position": {"x": -18.5, "y": 6.5}
+      },
+      {
+        "name": "express-underground-belt",
+        "direction": 12,
+        "type": "input",
+        "position": {"x": -9.5, "y": 6.5}
+      },
+      {
+        "name": "express-underground-belt",
+        "direction": 12,
+        "type": "output",
+        "position": {"x": -8.5, "y": 6.5}
+      },
+      {
+        "name": "express-underground-belt",
+        "direction": 12,
+        "type": "output",
+        "position": {"x": 1.5, "y": 6.5}
+      },
+      {
+        "name": "express-underground-belt",
+        "direction": 12,
+        "type": "output",
+        "position": {"x": 4.5, "y": 5.5}
+      },
+      {
+        "name": "express-underground-belt",
+        "direction": 12,
+        "type": "input",
+        "position": {"x": 6.5, "y": 5.5}
+      },
+      {
+        "name": "express-underground-belt",
+        "direction": 12,
+        "type": "input",
+        "position": {"x": 6.5, "y": 6.5}
+      },
+      {
+        "name": "fast-underground-belt",
+        "direction": 12,
+        "type": "output",
+        "position": {"x": -0.5, "y": 6.5}
+      },
+      {
+        "name": "fast-underground-belt",
+        "direction": 12,
+        "type": "input",
+        "position": {"x": 2.5, "y": 6.5}
+      },
+      {
+        "name": "foundry",
+        "direction": 8,
+        "recipe": "casting-steel",
+        "recipe_quality": "normal",
+        "items": [
+          {
+            "id": {"name": "productivity-module-2"},
+            "items": {
+              "in_inventory": [
+                {"inventory": 4, "stack": 0},
+                {"inventory": 4, "stack": 1},
+                {"inventory": 4, "stack": 2},
+                {"inventory": 4, "stack": 3}
+              ]
+            }
+          }
+        ],
+        "position": {"x": -21.5, "y": 2.5}
+      },
+      {
+        "name": "foundry",
+        "direction": 8,
+        "recipe": "casting-steel",
+        "recipe_quality": "normal",
+        "items": [
+          {
+            "id": {"name": "productivity-module-2"},
+            "items": {
+              "in_inventory": [
+                {"inventory": 4, "stack": 0},
+                {"inventory": 4, "stack": 1},
+                {"inventory": 4, "stack": 2},
+                {"inventory": 4, "stack": 3}
+              ]
+            }
+          }
+        ],
+        "position": {"x": -16.5, "y": 2.5}
+      },
+      {
+        "name": "foundry",
+        "mirror": true,
+        "recipe": "casting-steel",
+        "recipe_quality": "normal",
+        "items": [
+          {
+            "id": {"name": "productivity-module-2"},
+            "items": {
+              "in_inventory": [
+                {"inventory": 4, "stack": 0},
+                {"inventory": 4, "stack": 1},
+                {"inventory": 4, "stack": 2},
+                {"inventory": 4, "stack": 3}
+              ]
+            }
+          }
+        ],
+        "position": {"x": -21.5, "y": 10.5}
+      },
+      {
+        "name": "foundry",
+        "mirror": true,
+        "recipe": "casting-steel",
+        "recipe_quality": "normal",
+        "items": [
+          {
+            "id": {"name": "productivity-module-2"},
+            "items": {
+              "in_inventory": [
+                {"inventory": 4, "stack": 0},
+                {"inventory": 4, "stack": 1},
+                {"inventory": 4, "stack": 2},
+                {"inventory": 4, "stack": 3}
+              ]
+            }
+          }
+        ],
+        "position": {"x": -16.5, "y": 10.5}
+      },
+      {
+        "name": "foundry",
+        "direction": 8,
+        "recipe": "casting-steel",
+        "recipe_quality": "normal",
+        "items": [
+          {
+            "id": {"name": "productivity-module-2"},
+            "items": {
+              "in_inventory": [
+                {"inventory": 4, "stack": 0},
+                {"inventory": 4, "stack": 1},
+                {"inventory": 4, "stack": 2},
+                {"inventory": 4, "stack": 3}
+              ]
+            }
+          }
+        ],
+        "position": {"x": -11.5, "y": 2.5}
+      },
+      {
+        "name": "foundry",
+        "direction": 8,
+        "recipe": "casting-steel",
+        "recipe_quality": "normal",
+        "items": [
+          {
+            "id": {"name": "productivity-module-2"},
+            "items": {
+              "in_inventory": [
+                {"inventory": 4, "stack": 0},
+                {"inventory": 4, "stack": 1},
+                {"inventory": 4, "stack": 2},
+                {"inventory": 4, "stack": 3}
+              ]
+            }
+          }
+        ],
+        "position": {"x": -6.5, "y": 2.5}
+      },
+      {
+        "name": "foundry",
+        "recipe": "molten-iron",
+        "recipe_quality": "normal",
+        "items": [
+          {
+            "id": {"name": "productivity-module-2"},
+            "items": {
+              "in_inventory": [
+                {"inventory": 4, "stack": 0},
+                {"inventory": 4, "stack": 1},
+                {"inventory": 4, "stack": 2},
+                {"inventory": 4, "stack": 3}
+              ]
+            }
+          }
+        ],
+        "position": {"x": -1.5, "y": 2.5}
+      },
+      {
+        "name": "foundry",
+        "mirror": true,
+        "recipe": "casting-steel",
+        "recipe_quality": "normal",
+        "items": [
+          {
+            "id": {"name": "productivity-module-2"},
+            "items": {
+              "in_inventory": [
+                {"inventory": 4, "stack": 0},
+                {"inventory": 4, "stack": 1},
+                {"inventory": 4, "stack": 2},
+                {"inventory": 4, "stack": 3}
+              ]
+            }
+          }
+        ],
+        "position": {"x": -11.5, "y": 10.5}
+      },
+      {
+        "name": "foundry",
+        "mirror": true,
+        "recipe": "casting-steel",
+        "recipe_quality": "normal",
+        "items": [
+          {
+            "id": {"name": "productivity-module-2"},
+            "items": {
+              "in_inventory": [
+                {"inventory": 4, "stack": 0},
+                {"inventory": 4, "stack": 1},
+                {"inventory": 4, "stack": 2},
+                {"inventory": 4, "stack": 3}
+              ]
+            }
+          }
+        ],
+        "position": {"x": -6.5, "y": 10.5}
+      },
+      {
+        "name": "foundry",
+        "direction": 8,
+        "recipe": "molten-iron",
+        "recipe_quality": "normal",
+        "items": [
+          {
+            "id": {"name": "productivity-module-2"},
+            "items": {
+              "in_inventory": [
+                {"inventory": 4, "stack": 0},
+                {"inventory": 4, "stack": 1},
+                {"inventory": 4, "stack": 2},
+                {"inventory": 4, "stack": 3}
+              ]
+            }
+          }
+        ],
+        "position": {"x": -1.5, "y": 10.5}
+      },
+      {
+        "name": "foundry",
+        "recipe": "molten-iron",
+        "recipe_quality": "normal",
+        "items": [
+          {
+            "id": {"name": "productivity-module-2"},
+            "items": {
+              "in_inventory": [
+                {"inventory": 4, "stack": 0},
+                {"inventory": 4, "stack": 1},
+                {"inventory": 4, "stack": 2},
+                {"inventory": 4, "stack": 3}
+              ]
+            }
+          }
+        ],
+        "position": {"x": 3.5, "y": 2.5}
+      },
+      {
+        "name": "foundry",
+        "direction": 8,
+        "recipe": "molten-iron",
+        "recipe_quality": "normal",
+        "items": [
+          {
+            "id": {"name": "productivity-module-2"},
+            "items": {
+              "in_inventory": [
+                {"inventory": 4, "stack": 0},
+                {"inventory": 4, "stack": 1},
+                {"inventory": 4, "stack": 2},
+                {"inventory": 4, "stack": 3}
+              ]
+            }
+          }
+        ],
+        "position": {"x": 3.5, "y": 10.5}
+      },
+      {"name": "pipe", "position": {"x": -20.5, "y": -0.5}},
+      {"name": "pipe", "position": {"x": -19.5, "y": -0.5}},
+      {"name": "pipe", "position": {"x": -18.5, "y": -0.5}},
+      {"name": "pipe", "position": {"x": -17.5, "y": -0.5}},
+      {"name": "pipe", "position": {"x": -16.5, "y": -0.5}},
+      {"name": "pipe", "position": {"x": -15.5, "y": -0.5}},
+      {"name": "pipe", "position": {"x": -14.5, "y": -0.5}},
+      {"name": "pipe", "position": {"x": -13.5, "y": -0.5}},
+      {"name": "pipe", "position": {"x": -12.5, "y": -0.5}},
+      {"name": "pipe", "position": {"x": -11.5, "y": -0.5}},
+      {"name": "pipe", "position": {"x": -10.5, "y": -0.5}},
+      {"name": "pipe", "position": {"x": -9.5, "y": -0.5}},
+      {"name": "pipe", "position": {"x": -8.5, "y": -0.5}},
+      {"name": "pipe", "position": {"x": -7.5, "y": -0.5}},
+      {"name": "pipe", "position": {"x": -6.5, "y": -0.5}},
+      {"name": "pipe", "position": {"x": -5.5, "y": -0.5}},
+      {"name": "pipe", "position": {"x": -4.5, "y": -0.5}},
+      {"name": "pipe", "position": {"x": -3.5, "y": -0.5}},
+      {"name": "pipe", "position": {"x": -2.5, "y": -0.5}},
+      {"name": "pipe", "position": {"x": -1.5, "y": -0.5}},
+      {"name": "pipe", "position": {"x": -0.5, "y": -0.5}},
+      {"name": "pipe", "position": {"x": 0.5, "y": -0.5}},
+      {"name": "pipe", "position": {"x": 1.5, "y": -0.5}},
+      {"name": "pipe", "position": {"x": 2.5, "y": -0.5}},
+      {"name": "pipe", "position": {"x": -20.5, "y": 13.5}},
+      {"name": "pipe", "position": {"x": -19.5, "y": 13.5}},
+      {"name": "pipe", "position": {"x": -18.5, "y": 13.5}},
+      {"name": "pipe", "position": {"x": -17.5, "y": 13.5}},
+      {"name": "pipe", "position": {"x": -16.5, "y": 13.5}},
+      {"name": "pipe", "position": {"x": -15.5, "y": 13.5}},
+      {"name": "pipe", "position": {"x": -14.5, "y": 13.5}},
+      {"name": "pipe", "position": {"x": -13.5, "y": 13.5}},
+      {"name": "pipe", "position": {"x": -12.5, "y": 13.5}},
+      {"name": "pipe", "position": {"x": -11.5, "y": 13.5}},
+      {"name": "pipe", "position": {"x": -10.5, "y": 13.5}},
+      {"name": "pipe", "position": {"x": -9.5, "y": 13.5}},
+      {"name": "pipe", "position": {"x": -8.5, "y": 13.5}},
+      {"name": "pipe", "position": {"x": -7.5, "y": 13.5}},
+      {"name": "pipe", "position": {"x": -6.5, "y": 13.5}},
+      {"name": "pipe", "position": {"x": -5.5, "y": 13.5}},
+      {"name": "pipe", "position": {"x": -4.5, "y": 13.5}},
+      {"name": "pipe", "position": {"x": -3.5, "y": 13.5}},
+      {"name": "pipe", "position": {"x": -2.5, "y": 13.5}},
+      {"name": "pipe", "position": {"x": -1.5, "y": 13.5}},
+      {"name": "pipe", "position": {"x": -0.5, "y": 13.5}},
+      {"name": "pipe", "position": {"x": 0.5, "y": 13.5}},
+      {"name": "pipe", "position": {"x": 1.5, "y": 13.5}},
+      {"name": "pipe", "position": {"x": 2.5, "y": 13.5}},
+      {"name": "stack-inserter", "position": {"x": -19.5, "y": 5.5}},
+      {"name": "stack-inserter", "position": {"x": -18.5, "y": 5.5}},
+      {"name": "stack-inserter", "direction": 8, "position": {"x": -19.5, "y": 7.5}},
+      {"name": "stack-inserter", "direction": 8, "position": {"x": -18.5, "y": 7.5}},
+      {"name": "stack-inserter", "position": {"x": -9.5, "y": 5.5}},
+      {"name": "stack-inserter", "position": {"x": -8.5, "y": 5.5}},
+      {"name": "stack-inserter", "direction": 8, "position": {"x": -9.5, "y": 7.5}},
+      {"name": "stack-inserter", "direction": 8, "position": {"x": -8.5, "y": 7.5}},
+      {"name": "stack-inserter", "direction": 8, "position": {"x": 0.5, "y": 5.5}},
+      {"name": "stack-inserter", "direction": 8, "position": {"x": 1.5, "y": 5.5}},
+      {"name": "stack-inserter", "position": {"x": 0.5, "y": 7.5}},
+      {"name": "stack-inserter", "position": {"x": 1.5, "y": 7.5}},
+      {"name": "substation", "position": {"x": -17, "y": 6}},
+      {"name": "substation", "position": {"x": -2, "y": 6}}
+    ],
+    "icons": [
+      {"index": 1, "signal": {"name": "foundry"}},
+      {"index": 2, "signal": {"name": "steel-plate"}},
+      {"index": 3, "signal": {"name": "express-transport-belt"}}
+    ],
+    "wires": [["11.5,8.5", 5, "26.5,8.5", 5]]
+  }
+}
