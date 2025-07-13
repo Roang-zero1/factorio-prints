@@ -1,0 +1,679 @@
+{
+  "index": 3,
+  "blueprint": {
+    "item": "blueprint",
+    "label": "280 [item=processing-unit]/m",
+    "shift_x": 7,
+    "shift_y": 3,
+    "version": 562949957025792,
+    "entities": [
+      {
+        "name": "assembling-machine-3",
+        "direction": 4,
+        "recipe": "processing-unit",
+        "recipe_quality": "normal",
+        "items": [
+          {
+            "id": {"name": "productivity-module-3"},
+            "items": {
+              "in_inventory": [
+                {"inventory": 4, "stack": 0},
+                {"inventory": 4, "stack": 1},
+                {"inventory": 4, "stack": 2},
+                {"inventory": 4, "stack": 3}
+              ]
+            }
+          }
+        ],
+        "position": {"x": -1.5, "y": 3.5}
+      },
+      {
+        "name": "assembling-machine-3",
+        "direction": 12,
+        "recipe": "processing-unit",
+        "recipe_quality": "normal",
+        "items": [
+          {
+            "id": {"name": "productivity-module-3"},
+            "items": {
+              "in_inventory": [
+                {"inventory": 4, "stack": 0},
+                {"inventory": 4, "stack": 1},
+                {"inventory": 4, "stack": 2},
+                {"inventory": 4, "stack": 3}
+              ]
+            }
+          }
+        ],
+        "position": {"x": 2.5, "y": 3.5}
+      },
+      {
+        "name": "assembling-machine-3",
+        "direction": 4,
+        "recipe": "processing-unit",
+        "recipe_quality": "normal",
+        "items": [
+          {
+            "id": {"name": "productivity-module-3"},
+            "items": {
+              "in_inventory": [
+                {"inventory": 4, "stack": 0},
+                {"inventory": 4, "stack": 1},
+                {"inventory": 4, "stack": 2},
+                {"inventory": 4, "stack": 3}
+              ]
+            }
+          }
+        ],
+        "position": {"x": 7.5, "y": 3.5}
+      },
+      {
+        "name": "assembling-machine-3",
+        "direction": 12,
+        "recipe": "processing-unit",
+        "recipe_quality": "normal",
+        "items": [
+          {
+            "id": {"name": "productivity-module-3"},
+            "items": {
+              "in_inventory": [
+                {"inventory": 4, "stack": 0},
+                {"inventory": 4, "stack": 1},
+                {"inventory": 4, "stack": 2},
+                {"inventory": 4, "stack": 3}
+              ]
+            }
+          }
+        ],
+        "position": {"x": 11.5, "y": 3.5}
+      },
+      {
+        "name": "assembling-machine-3",
+        "direction": 4,
+        "recipe": "processing-unit",
+        "recipe_quality": "normal",
+        "items": [
+          {
+            "id": {"name": "productivity-module-3"},
+            "items": {
+              "in_inventory": [
+                {"inventory": 4, "stack": 0},
+                {"inventory": 4, "stack": 1},
+                {"inventory": 4, "stack": 2},
+                {"inventory": 4, "stack": 3}
+              ]
+            }
+          }
+        ],
+        "position": {"x": 16.5, "y": 3.5}
+      },
+      {
+        "name": "assembling-machine-3",
+        "direction": 12,
+        "recipe": "processing-unit",
+        "recipe_quality": "normal",
+        "items": [
+          {
+            "id": {"name": "productivity-module-3"},
+            "items": {
+              "in_inventory": [
+                {"inventory": 4, "stack": 0},
+                {"inventory": 4, "stack": 1},
+                {"inventory": 4, "stack": 2},
+                {"inventory": 4, "stack": 3}
+              ]
+            }
+          }
+        ],
+        "position": {"x": 20.5, "y": 3.5}
+      },
+      {
+        "name": "beacon",
+        "items": [
+          {
+            "id": {"name": "speed-module-3"},
+            "items": {"in_inventory": [{"inventory": 1, "stack": 0}, {"inventory": 1, "stack": 1}]}
+          }
+        ],
+        "position": {"x": -5.5, "y": -1.5}
+      },
+      {
+        "name": "beacon",
+        "items": [
+          {
+            "id": {"name": "speed-module-3"},
+            "items": {"in_inventory": [{"inventory": 1, "stack": 0}, {"inventory": 1, "stack": 1}]}
+          }
+        ],
+        "position": {"x": -2.5, "y": -1.5}
+      },
+      {
+        "name": "beacon",
+        "items": [
+          {
+            "id": {"name": "speed-module-3"},
+            "items": {"in_inventory": [{"inventory": 1, "stack": 0}, {"inventory": 1, "stack": 1}]}
+          }
+        ],
+        "position": {"x": 0.5, "y": -1.5}
+      },
+      {
+        "name": "beacon",
+        "items": [
+          {
+            "id": {"name": "speed-module-3"},
+            "items": {"in_inventory": [{"inventory": 1, "stack": 0}, {"inventory": 1, "stack": 1}]}
+          }
+        ],
+        "position": {"x": 3.5, "y": -1.5}
+      },
+      {
+        "name": "beacon",
+        "items": [
+          {
+            "id": {"name": "speed-module-3"},
+            "items": {"in_inventory": [{"inventory": 1, "stack": 0}, {"inventory": 1, "stack": 1}]}
+          }
+        ],
+        "position": {"x": 6.5, "y": -1.5}
+      },
+      {
+        "name": "beacon",
+        "items": [
+          {
+            "id": {"name": "speed-module-3"},
+            "items": {"in_inventory": [{"inventory": 1, "stack": 0}, {"inventory": 1, "stack": 1}]}
+          }
+        ],
+        "position": {"x": 9.5, "y": -1.5}
+      },
+      {
+        "name": "beacon",
+        "items": [
+          {
+            "id": {"name": "speed-module-3"},
+            "items": {"in_inventory": [{"inventory": 1, "stack": 0}, {"inventory": 1, "stack": 1}]}
+          }
+        ],
+        "position": {"x": 12.5, "y": -1.5}
+      },
+      {
+        "name": "beacon",
+        "items": [
+          {
+            "id": {"name": "speed-module-3"},
+            "items": {"in_inventory": [{"inventory": 1, "stack": 0}, {"inventory": 1, "stack": 1}]}
+          }
+        ],
+        "position": {"x": 15.5, "y": -1.5}
+      },
+      {
+        "name": "beacon",
+        "items": [
+          {
+            "id": {"name": "speed-module-3"},
+            "items": {"in_inventory": [{"inventory": 1, "stack": 0}, {"inventory": 1, "stack": 1}]}
+          }
+        ],
+        "position": {"x": 18.5, "y": -1.5}
+      },
+      {
+        "name": "beacon",
+        "items": [
+          {
+            "id": {"name": "speed-module-3"},
+            "items": {"in_inventory": [{"inventory": 1, "stack": 0}, {"inventory": 1, "stack": 1}]}
+          }
+        ],
+        "position": {"x": 21.5, "y": -1.5}
+      },
+      {
+        "name": "beacon",
+        "items": [
+          {
+            "id": {"name": "speed-module-3"},
+            "items": {"in_inventory": [{"inventory": 1, "stack": 0}, {"inventory": 1, "stack": 1}]}
+          }
+        ],
+        "position": {"x": 24.5, "y": -1.5}
+      },
+      {
+        "name": "beacon",
+        "items": [
+          {
+            "id": {"name": "speed-module-3"},
+            "items": {"in_inventory": [{"inventory": 1, "stack": 0}, {"inventory": 1, "stack": 1}]}
+          }
+        ],
+        "position": {"x": -5.5, "y": 8.5}
+      },
+      {
+        "name": "beacon",
+        "items": [
+          {
+            "id": {"name": "speed-module-3"},
+            "items": {"in_inventory": [{"inventory": 1, "stack": 0}, {"inventory": 1, "stack": 1}]}
+          }
+        ],
+        "position": {"x": -2.5, "y": 8.5}
+      },
+      {
+        "name": "beacon",
+        "items": [
+          {
+            "id": {"name": "speed-module-3"},
+            "items": {"in_inventory": [{"inventory": 1, "stack": 0}, {"inventory": 1, "stack": 1}]}
+          }
+        ],
+        "position": {"x": 0.5, "y": 8.5}
+      },
+      {
+        "name": "beacon",
+        "items": [
+          {
+            "id": {"name": "speed-module-3"},
+            "items": {"in_inventory": [{"inventory": 1, "stack": 0}, {"inventory": 1, "stack": 1}]}
+          }
+        ],
+        "position": {"x": 3.5, "y": 8.5}
+      },
+      {
+        "name": "beacon",
+        "items": [
+          {
+            "id": {"name": "speed-module-3"},
+            "items": {"in_inventory": [{"inventory": 1, "stack": 0}, {"inventory": 1, "stack": 1}]}
+          }
+        ],
+        "position": {"x": 6.5, "y": 8.5}
+      },
+      {
+        "name": "beacon",
+        "items": [
+          {
+            "id": {"name": "speed-module-3"},
+            "items": {"in_inventory": [{"inventory": 1, "stack": 0}, {"inventory": 1, "stack": 1}]}
+          }
+        ],
+        "position": {"x": 9.5, "y": 8.5}
+      },
+      {
+        "name": "beacon",
+        "items": [
+          {
+            "id": {"name": "speed-module-3"},
+            "items": {"in_inventory": [{"inventory": 1, "stack": 0}, {"inventory": 1, "stack": 1}]}
+          }
+        ],
+        "position": {"x": 12.5, "y": 8.5}
+      },
+      {
+        "name": "beacon",
+        "items": [
+          {
+            "id": {"name": "speed-module-3"},
+            "items": {"in_inventory": [{"inventory": 1, "stack": 0}, {"inventory": 1, "stack": 1}]}
+          }
+        ],
+        "position": {"x": 15.5, "y": 8.5}
+      },
+      {
+        "name": "beacon",
+        "items": [
+          {
+            "id": {"name": "speed-module-3"},
+            "items": {"in_inventory": [{"inventory": 1, "stack": 0}, {"inventory": 1, "stack": 1}]}
+          }
+        ],
+        "position": {"x": 18.5, "y": 8.5}
+      },
+      {
+        "name": "beacon",
+        "items": [
+          {
+            "id": {"name": "speed-module-3"},
+            "items": {"in_inventory": [{"inventory": 1, "stack": 0}, {"inventory": 1, "stack": 1}]}
+          }
+        ],
+        "position": {"x": 21.5, "y": 8.5}
+      },
+      {
+        "name": "beacon",
+        "items": [
+          {
+            "id": {"name": "speed-module-3"},
+            "items": {"in_inventory": [{"inventory": 1, "stack": 0}, {"inventory": 1, "stack": 1}]}
+          }
+        ],
+        "position": {"x": 24.5, "y": 8.5}
+      },
+      {"name": "bulk-inserter", "position": {"x": -2.5, "y": 1.5}},
+      {"name": "bulk-inserter", "position": {"x": -1.5, "y": 1.5}},
+      {"name": "bulk-inserter", "position": {"x": 2.5, "y": 1.5}},
+      {"name": "bulk-inserter", "position": {"x": 3.5, "y": 1.5}},
+      {"name": "bulk-inserter", "position": {"x": 6.5, "y": 1.5}},
+      {"name": "bulk-inserter", "position": {"x": 7.5, "y": 1.5}},
+      {"name": "bulk-inserter", "position": {"x": 11.5, "y": 1.5}},
+      {"name": "bulk-inserter", "position": {"x": 12.5, "y": 1.5}},
+      {"name": "bulk-inserter", "position": {"x": 15.5, "y": 1.5}},
+      {"name": "bulk-inserter", "position": {"x": 16.5, "y": 1.5}},
+      {"name": "bulk-inserter", "position": {"x": 19.5, "y": 1.5}},
+      {"name": "bulk-inserter", "position": {"x": 20.5, "y": 1.5}},
+      {
+        "name": "constant-combinator",
+        "direction": 12,
+        "control_behavior": {
+          "sections": {
+            "sections": [
+              {
+                "index": 1,
+                "filters": [{"name": "electronic-circuit", "comparator": "=", "count": 1, "index": 1, "quality": "normal"}]
+              }
+            ]
+          }
+        },
+        "position": {"x": 27.5, "y": 0.5}
+      },
+      {
+        "name": "constant-combinator",
+        "direction": 12,
+        "control_behavior": {
+          "sections": {
+            "sections": [
+              {
+                "index": 1,
+                "filters": [{"name": "electronic-circuit", "comparator": "=", "count": 1, "index": 1, "quality": "normal"}]
+              }
+            ]
+          }
+        },
+        "position": {"x": 27.5, "y": 2.5}
+      },
+      {
+        "name": "constant-combinator",
+        "direction": 12,
+        "control_behavior": {
+          "sections": {
+            "sections": [
+              {
+                "index": 1,
+                "filters": [
+                  {"name": "advanced-circuit", "comparator": "=", "count": 1, "index": 1, "quality": "normal"},
+                  {
+                    "name": "signal-T",
+                    "comparator": "=",
+                    "count": 1,
+                    "index": 2,
+                    "quality": "normal",
+                    "type": "virtual"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "position": {"x": 27.5, "y": 4.5}
+      },
+      {
+        "name": "constant-combinator",
+        "direction": 12,
+        "control_behavior": {
+          "sections": {
+            "sections": [
+              {
+                "index": 1,
+                "filters": [
+                  {
+                    "name": "sulfuric-acid",
+                    "comparator": "=",
+                    "count": 1,
+                    "index": 1,
+                    "quality": "normal",
+                    "type": "fluid"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "position": {"x": 28.5, "y": 5.5}
+      },
+      {"name": "express-splitter", "direction": 12, "position": {"x": 23.5, "y": 3}},
+      {"name": "express-transport-belt", "direction": 12, "position": {"x": 4.5, "y": 0.5}},
+      {"name": "express-transport-belt", "direction": 12, "position": {"x": 5.5, "y": 0.5}},
+      {"name": "express-transport-belt", "position": {"x": 9.5, "y": 1.5}},
+      {"name": "express-transport-belt", "direction": 12, "position": {"x": 13.5, "y": 0.5}},
+      {"name": "express-transport-belt", "direction": 12, "position": {"x": 14.5, "y": 0.5}},
+      {"name": "express-transport-belt", "direction": 12, "position": {"x": 23.5, "y": 0.5}},
+      {"name": "express-transport-belt", "direction": 12, "position": {"x": 22.5, "y": 1.5}},
+      {"name": "express-transport-belt", "position": {"x": 22.5, "y": 2.5}},
+      {"name": "express-transport-belt", "direction": 8, "position": {"x": 22.5, "y": 3.5}},
+      {"name": "express-transport-belt", "direction": 8, "position": {"x": 22.5, "y": 4.5}},
+      {"name": "express-transport-belt", "direction": 4, "position": {"x": 22.5, "y": 5.5}},
+      {"name": "express-transport-belt", "position": {"x": 23.5, "y": 5.5}},
+      {"name": "express-transport-belt", "direction": 12, "position": {"x": 24.5, "y": 0.5}},
+      {"name": "express-transport-belt", "direction": 12, "position": {"x": 24.5, "y": 2.5}},
+      {"name": "express-transport-belt", "direction": 12, "position": {"x": 25.5, "y": 2.5}},
+      {"name": "express-transport-belt", "position": {"x": 24.5, "y": 4.5}},
+      {"name": "express-transport-belt", "direction": 12, "position": {"x": 25.5, "y": 4.5}},
+      {
+        "name": "express-underground-belt",
+        "direction": 12,
+        "type": "output",
+        "position": {"x": -2.5, "y": 0.5}
+      },
+      {
+        "name": "express-underground-belt",
+        "direction": 12,
+        "type": "input",
+        "position": {"x": 3.5, "y": 0.5}
+      },
+      {
+        "name": "express-underground-belt",
+        "direction": 12,
+        "type": "output",
+        "position": {"x": 6.5, "y": 0.5}
+      },
+      {
+        "name": "express-underground-belt",
+        "direction": 12,
+        "type": "output",
+        "position": {"x": 10.5, "y": 1.5}
+      },
+      {
+        "name": "express-underground-belt",
+        "direction": 12,
+        "type": "input",
+        "position": {"x": 12.5, "y": 0.5}
+      },
+      {
+        "name": "express-underground-belt",
+        "direction": 12,
+        "type": "input",
+        "position": {"x": 13.5, "y": 1.5}
+      },
+      {
+        "name": "express-underground-belt",
+        "direction": 12,
+        "type": "output",
+        "position": {"x": 15.5, "y": 0.5}
+      },
+      {
+        "name": "express-underground-belt",
+        "direction": 12,
+        "type": "output",
+        "position": {"x": 14.5, "y": 1.5}
+      },
+      {
+        "name": "express-underground-belt",
+        "direction": 12,
+        "type": "input",
+        "position": {"x": 20.5, "y": 0.5}
+      },
+      {
+        "name": "express-underground-belt",
+        "direction": 12,
+        "type": "output",
+        "position": {"x": 21.5, "y": 0.5}
+      },
+      {
+        "name": "express-underground-belt",
+        "direction": 12,
+        "type": "input",
+        "position": {"x": 21.5, "y": 1.5}
+      },
+      {"name": "express-underground-belt", "type": "output", "position": {"x": 23.5, "y": 1.5}},
+      {"name": "express-underground-belt", "type": "input", "position": {"x": 23.5, "y": 4.5}},
+      {
+        "name": "express-underground-belt",
+        "direction": 12,
+        "type": "input",
+        "position": {"x": 25.5, "y": 0.5}
+      },
+      {"name": "express-underground-belt", "type": "output", "position": {"x": 24.5, "y": 1.5}},
+      {
+        "name": "express-underground-belt",
+        "direction": 12,
+        "type": "output",
+        "position": {"x": 26.5, "y": 0.5}
+      },
+      {"name": "express-underground-belt", "type": "input", "position": {"x": 24.5, "y": 3.5}},
+      {
+        "name": "express-underground-belt",
+        "direction": 12,
+        "type": "output",
+        "position": {"x": 26.5, "y": 2.5}
+      },
+      {
+        "name": "express-underground-belt",
+        "direction": 12,
+        "type": "output",
+        "position": {"x": 26.5, "y": 4.5}
+      },
+      {
+        "name": "express-underground-belt",
+        "direction": 4,
+        "type": "input",
+        "position": {"x": 26.5, "y": 6.5}
+      },
+      {"name": "fast-inserter", "position": {"x": -1.5, "y": 5.5}},
+      {"name": "fast-inserter", "position": {"x": 2.5, "y": 5.5}},
+      {"name": "fast-inserter", "position": {"x": 7.5, "y": 5.5}},
+      {"name": "fast-inserter", "position": {"x": 11.5, "y": 5.5}},
+      {"name": "fast-inserter", "position": {"x": 16.5, "y": 5.5}},
+      {"name": "fast-inserter", "position": {"x": 20.5, "y": 5.5}},
+      {"name": "fast-transport-belt", "direction": 12, "position": {"x": -0.5, "y": 0.5}},
+      {"name": "fast-transport-belt", "direction": 12, "position": {"x": 0.5, "y": 0.5}},
+      {"name": "fast-transport-belt", "direction": 12, "position": {"x": 1.5, "y": 0.5}},
+      {"name": "fast-transport-belt", "direction": 12, "position": {"x": 8.5, "y": 0.5}},
+      {"name": "fast-transport-belt", "direction": 12, "position": {"x": 9.5, "y": 0.5}},
+      {"name": "fast-transport-belt", "direction": 12, "position": {"x": 10.5, "y": 0.5}},
+      {"name": "fast-transport-belt", "direction": 12, "position": {"x": 17.5, "y": 0.5}},
+      {"name": "fast-transport-belt", "direction": 12, "position": {"x": 18.5, "y": 0.5}},
+      {
+        "name": "fast-underground-belt",
+        "direction": 12,
+        "type": "input",
+        "position": {"x": -1.5, "y": 0.5}
+      },
+      {
+        "name": "fast-underground-belt",
+        "direction": 12,
+        "type": "output",
+        "position": {"x": 2.5, "y": 0.5}
+      },
+      {
+        "name": "fast-underground-belt",
+        "direction": 12,
+        "type": "input",
+        "position": {"x": 7.5, "y": 0.5}
+      },
+      {
+        "name": "fast-underground-belt",
+        "direction": 12,
+        "type": "output",
+        "position": {"x": 11.5, "y": 0.5}
+      },
+      {
+        "name": "fast-underground-belt",
+        "direction": 12,
+        "type": "input",
+        "position": {"x": 16.5, "y": 0.5}
+      },
+      {
+        "name": "fast-underground-belt",
+        "direction": 12,
+        "type": "output",
+        "position": {"x": 19.5, "y": 0.5}
+      },
+      {
+        "name": "fast-underground-belt",
+        "direction": 12,
+        "type": "input",
+        "position": {"x": 22.5, "y": 0.5}
+      },
+      {"name": "medium-electric-pole", "position": {"x": -3.5, "y": 1.5}},
+      {"name": "medium-electric-pole", "position": {"x": -3.5, "y": 6.5}},
+      {"name": "medium-electric-pole", "position": {"x": 18.5, "y": 2.5}},
+      {"name": "medium-electric-pole", "position": {"x": 25.5, "y": 1.5}},
+      {"name": "medium-electric-pole", "position": {"x": 24.5, "y": 5.5}},
+      {"name": "pipe", "position": {"x": 0.5, "y": 3.5}},
+      {"name": "pipe", "position": {"x": 0.5, "y": 4.5}},
+      {"name": "pipe", "position": {"x": 0.5, "y": 5.5}},
+      {"name": "pipe", "position": {"x": 9.5, "y": 3.5}},
+      {"name": "pipe", "position": {"x": 9.5, "y": 4.5}},
+      {"name": "pipe", "position": {"x": 9.5, "y": 5.5}},
+      {"name": "pipe", "position": {"x": 18.5, "y": 3.5}},
+      {"name": "pipe", "position": {"x": 18.5, "y": 4.5}},
+      {"name": "pipe", "position": {"x": 18.5, "y": 5.5}},
+      {"name": "pipe-to-ground", "direction": 4, "position": {"x": -0.5, "y": 5.5}},
+      {"name": "pipe-to-ground", "direction": 12, "position": {"x": 1.5, "y": 5.5}},
+      {"name": "pipe-to-ground", "direction": 4, "position": {"x": 8.5, "y": 5.5}},
+      {"name": "pipe-to-ground", "direction": 12, "position": {"x": 10.5, "y": 5.5}},
+      {"name": "pipe-to-ground", "direction": 4, "position": {"x": 17.5, "y": 5.5}},
+      {"name": "pipe-to-ground", "direction": 12, "position": {"x": 19.5, "y": 5.5}},
+      {"name": "pipe-to-ground", "direction": 4, "position": {"x": 26.5, "y": 5.5}},
+      {"name": "pipe-to-ground", "direction": 12, "position": {"x": 27.5, "y": 5.5}},
+      {"name": "substation", "position": {"x": 5, "y": 4}},
+      {"name": "substation", "position": {"x": 14, "y": 4}},
+      {"name": "transport-belt", "direction": 4, "position": {"x": -1.5, "y": 6.5}},
+      {"name": "transport-belt", "direction": 4, "position": {"x": -0.5, "y": 6.5}},
+      {"name": "transport-belt", "direction": 4, "position": {"x": 0.5, "y": 6.5}},
+      {"name": "transport-belt", "direction": 4, "position": {"x": 1.5, "y": 6.5}},
+      {"name": "transport-belt", "direction": 4, "position": {"x": 2.5, "y": 6.5}},
+      {"name": "transport-belt", "direction": 4, "position": {"x": 3.5, "y": 6.5}},
+      {"name": "transport-belt", "direction": 4, "position": {"x": 4.5, "y": 6.5}},
+      {"name": "transport-belt", "direction": 4, "position": {"x": 5.5, "y": 6.5}},
+      {"name": "transport-belt", "direction": 4, "position": {"x": 6.5, "y": 6.5}},
+      {"name": "transport-belt", "direction": 4, "position": {"x": 7.5, "y": 6.5}},
+      {"name": "transport-belt", "direction": 4, "position": {"x": 8.5, "y": 6.5}},
+      {"name": "transport-belt", "direction": 4, "position": {"x": 9.5, "y": 6.5}},
+      {"name": "transport-belt", "direction": 4, "position": {"x": 10.5, "y": 6.5}},
+      {"name": "transport-belt", "direction": 4, "position": {"x": 11.5, "y": 6.5}},
+      {"name": "transport-belt", "direction": 4, "position": {"x": 12.5, "y": 6.5}},
+      {"name": "transport-belt", "direction": 4, "position": {"x": 13.5, "y": 6.5}},
+      {"name": "transport-belt", "direction": 4, "position": {"x": 14.5, "y": 6.5}},
+      {"name": "transport-belt", "direction": 4, "position": {"x": 15.5, "y": 6.5}},
+      {"name": "transport-belt", "direction": 4, "position": {"x": 16.5, "y": 6.5}},
+      {"name": "transport-belt", "direction": 4, "position": {"x": 17.5, "y": 6.5}},
+      {"name": "transport-belt", "direction": 4, "position": {"x": 18.5, "y": 6.5}},
+      {"name": "transport-belt", "direction": 4, "position": {"x": 19.5, "y": 6.5}},
+      {"name": "transport-belt", "direction": 4, "position": {"x": 20.5, "y": 6.5}},
+      {"name": "transport-belt", "direction": 4, "position": {"x": 21.5, "y": 6.5}},
+      {"name": "transport-belt", "direction": 4, "position": {"x": 22.5, "y": 6.5}},
+      {"name": "transport-belt", "direction": 4, "position": {"x": 23.5, "y": 6.5}},
+      {"name": "transport-belt", "direction": 4, "position": {"x": 24.5, "y": 6.5}},
+      {"name": "transport-belt", "direction": 4, "position": {"x": 25.5, "y": 6.5}}
+    ],
+    "icons": [{"index": 1, "signal": {"name": "processing-unit"}}, {"index": 2, "signal": {"name": "beacon"}}],
+    "snap-to-grid": {"x": 33, "y": 10},
+    "wires": [
+      ["2,3", 5, "10.5,5.5", 5],
+      ["2,3", 5, "2,8", 5],
+      ["31,3", 5, "24,4", 5],
+      ["31,3", 5, "30,7", 5],
+      ["10.5,5.5", 5, "19.5,5.5", 5],
+      ["19.5,5.5", 5, "24,4", 5]
+    ]
+  }
+}

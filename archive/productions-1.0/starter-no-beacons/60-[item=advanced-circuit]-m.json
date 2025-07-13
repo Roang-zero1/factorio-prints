@@ -1,0 +1,392 @@
+{
+  "index": 1,
+  "blueprint": {
+    "item": "blueprint",
+    "label": "60 [item=advanced-circuit]/m",
+    "description": "120 [item=plastic-bar]/m\n120 [item=electronic-circuit]/m\n130 [item=copper-plate]/m",
+    "shift_x": 0,
+    "shift_y": 1,
+    "version": 562949957025792,
+    "entities": [
+      {
+        "name": "assembling-machine-2",
+        "recipe": "advanced-circuit",
+        "recipe_quality": "normal",
+        "position": {"x": 1.5, "y": 3.5}
+      },
+      {
+        "name": "assembling-machine-2",
+        "recipe": "advanced-circuit",
+        "recipe_quality": "normal",
+        "position": {"x": 4.5, "y": 3.5}
+      },
+      {
+        "name": "assembling-machine-2",
+        "recipe": "advanced-circuit",
+        "recipe_quality": "normal",
+        "position": {"x": 7.5, "y": 3.5}
+      },
+      {
+        "name": "assembling-machine-2",
+        "recipe": "advanced-circuit",
+        "recipe_quality": "normal",
+        "position": {"x": 10.5, "y": 3.5}
+      },
+      {
+        "name": "assembling-machine-2",
+        "recipe": "advanced-circuit",
+        "recipe_quality": "normal",
+        "position": {"x": 13.5, "y": 3.5}
+      },
+      {
+        "name": "assembling-machine-2",
+        "recipe": "advanced-circuit",
+        "recipe_quality": "normal",
+        "position": {"x": 16.5, "y": 3.5}
+      },
+      {
+        "name": "assembling-machine-2",
+        "recipe": "advanced-circuit",
+        "recipe_quality": "normal",
+        "position": {"x": 19.5, "y": 3.5}
+      },
+      {
+        "name": "assembling-machine-2",
+        "recipe": "advanced-circuit",
+        "recipe_quality": "normal",
+        "position": {"x": 22.5, "y": 3.5}
+      },
+      {
+        "name": "assembling-machine-2",
+        "recipe": "copper-cable",
+        "recipe_quality": "normal",
+        "items": [
+          {
+            "id": {"name": "speed-module"},
+            "items": {"in_inventory": [{"inventory": 4, "stack": 0}, {"inventory": 4, "stack": 1}]}
+          }
+        ],
+        "position": {"x": 25.5, "y": 3.5}
+      },
+      {
+        "name": "constant-combinator",
+        "direction": 12,
+        "control_behavior": {
+          "sections": {
+            "sections": [
+              {
+                "index": 1,
+                "filters": [
+                  {"name": "copper-plate", "comparator": "=", "count": 1, "index": 1, "quality": "normal"},
+                  {
+                    "name": "signal-A",
+                    "comparator": "=",
+                    "count": 1,
+                    "index": 2,
+                    "quality": "normal",
+                    "type": "virtual"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "position": {"x": 31.5, "y": 5.5}
+      },
+      {
+        "name": "constant-combinator",
+        "direction": 12,
+        "control_behavior": {
+          "sections": {
+            "sections": [
+              {
+                "index": 1,
+                "filters": [
+                  {"name": "electronic-circuit", "comparator": "=", "count": 1, "index": 1, "quality": "normal"},
+                  {"name": "plastic-bar", "comparator": "=", "count": 1, "index": 2, "quality": "normal"},
+                  {
+                    "name": "signal-A",
+                    "comparator": "=",
+                    "count": 1,
+                    "index": 3,
+                    "quality": "normal",
+                    "type": "virtual"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "position": {"x": 31.5, "y": 6.5}
+      },
+      {"name": "fast-inserter", "direction": 8, "position": {"x": 1.5, "y": 1.5}},
+      {"name": "fast-inserter", "position": {"x": 2.5, "y": 1.5}},
+      {"name": "fast-inserter", "position": {"x": 3.5, "y": 1.5}},
+      {"name": "fast-inserter", "direction": 8, "position": {"x": 4.5, "y": 1.5}},
+      {"name": "fast-inserter", "direction": 8, "position": {"x": 7.5, "y": 1.5}},
+      {"name": "fast-inserter", "direction": 8, "position": {"x": 2.5, "y": 5.5}},
+      {"name": "fast-inserter", "direction": 8, "position": {"x": 3.5, "y": 5.5}},
+      {"name": "fast-inserter", "position": {"x": 8.5, "y": 1.5}},
+      {"name": "fast-inserter", "position": {"x": 9.5, "y": 1.5}},
+      {"name": "fast-inserter", "direction": 8, "position": {"x": 10.5, "y": 1.5}},
+      {"name": "fast-inserter", "direction": 8, "position": {"x": 13.5, "y": 1.5}},
+      {"name": "fast-inserter", "position": {"x": 14.5, "y": 1.5}},
+      {"name": "fast-inserter", "position": {"x": 15.5, "y": 1.5}},
+      {"name": "fast-inserter", "direction": 8, "position": {"x": 8.5, "y": 5.5}},
+      {"name": "fast-inserter", "direction": 8, "position": {"x": 9.5, "y": 5.5}},
+      {"name": "fast-inserter", "direction": 8, "position": {"x": 14.5, "y": 5.5}},
+      {"name": "fast-inserter", "direction": 8, "position": {"x": 15.5, "y": 5.5}},
+      {"name": "fast-inserter", "direction": 8, "position": {"x": 16.5, "y": 1.5}},
+      {"name": "fast-inserter", "direction": 8, "position": {"x": 19.5, "y": 1.5}},
+      {"name": "fast-inserter", "position": {"x": 20.5, "y": 1.5}},
+      {"name": "fast-inserter", "position": {"x": 21.5, "y": 1.5}},
+      {"name": "fast-inserter", "direction": 8, "position": {"x": 22.5, "y": 1.5}},
+      {"name": "fast-inserter", "direction": 8, "position": {"x": 20.5, "y": 5.5}},
+      {"name": "fast-inserter", "direction": 8, "position": {"x": 21.5, "y": 5.5}},
+      {"name": "fast-inserter", "direction": 8, "position": {"x": 25.5, "y": 1.5}},
+      {"name": "fast-inserter", "direction": 8, "position": {"x": 26.5, "y": 1.5}},
+      {"name": "fast-inserter", "direction": 12, "position": {"x": 27.5, "y": 2.5}},
+      {"name": "fast-inserter", "direction": 12, "position": {"x": 27.5, "y": 3.5}},
+      {"name": "fast-inserter", "direction": 4, "position": {"x": 27.5, "y": 4.5}},
+      {"name": "fast-inserter", "direction": 8, "position": {"x": 26.5, "y": 5.5}},
+      {"name": "fast-splitter", "direction": 12, "position": {"x": 27.5, "y": 6}},
+      {"name": "fast-splitter", "direction": 12, "position": {"x": 28.5, "y": 5}},
+      {"name": "fast-transport-belt", "direction": 8, "position": {"x": 0.5, "y": 0.5}},
+      {"name": "fast-transport-belt", "direction": 12, "position": {"x": 1.5, "y": 0.5}},
+      {"name": "fast-transport-belt", "direction": 4, "position": {"x": 4.5, "y": 0.5}},
+      {"name": "fast-transport-belt", "direction": 8, "position": {"x": 5.5, "y": 0.5}},
+      {"name": "fast-transport-belt", "direction": 8, "position": {"x": 6.5, "y": 0.5}},
+      {"name": "fast-transport-belt", "direction": 12, "position": {"x": 7.5, "y": 0.5}},
+      {"name": "fast-transport-belt", "direction": 4, "position": {"x": 10.5, "y": 0.5}},
+      {"name": "fast-transport-belt", "direction": 8, "position": {"x": 11.5, "y": 0.5}},
+      {"name": "fast-transport-belt", "direction": 8, "position": {"x": 12.5, "y": 0.5}},
+      {"name": "fast-transport-belt", "direction": 12, "position": {"x": 13.5, "y": 0.5}},
+      {"name": "fast-transport-belt", "direction": 4, "position": {"x": 16.5, "y": 0.5}},
+      {"name": "fast-transport-belt", "direction": 8, "position": {"x": 17.5, "y": 0.5}},
+      {"name": "fast-transport-belt", "direction": 8, "position": {"x": 18.5, "y": 0.5}},
+      {"name": "fast-transport-belt", "direction": 12, "position": {"x": 19.5, "y": 0.5}},
+      {"name": "fast-transport-belt", "direction": 4, "position": {"x": 22.5, "y": 0.5}},
+      {"name": "fast-transport-belt", "direction": 8, "position": {"x": 23.5, "y": 0.5}},
+      {"name": "fast-transport-belt", "direction": 12, "position": {"x": 26.5, "y": 0.5}},
+      {"name": "fast-transport-belt", "direction": 12, "position": {"x": 27.5, "y": 0.5}},
+      {"name": "fast-transport-belt", "direction": 12, "position": {"x": 28.5, "y": 0.5}},
+      {"name": "fast-transport-belt", "direction": 12, "position": {"x": 29.5, "y": 0.5}},
+      {"name": "fast-transport-belt", "position": {"x": 28.5, "y": 1.5}},
+      {"name": "fast-transport-belt", "position": {"x": 26.5, "y": 6.5}},
+      {"name": "fast-transport-belt", "direction": 12, "position": {"x": 29.5, "y": 5.5}},
+      {"name": "fast-transport-belt", "direction": 12, "position": {"x": 29.5, "y": 6.5}},
+      {"name": "fast-underground-belt", "direction": 4, "type": "input", "position": {"x": 0.5, "y": 1.5}},
+      {
+        "name": "fast-underground-belt",
+        "direction": 12,
+        "type": "input",
+        "position": {"x": 2.5, "y": 0.5}
+      },
+      {
+        "name": "fast-underground-belt",
+        "direction": 12,
+        "type": "output",
+        "position": {"x": 3.5, "y": 0.5}
+      },
+      {
+        "name": "fast-underground-belt",
+        "direction": 4,
+        "type": "output",
+        "position": {"x": 5.5, "y": 1.5}
+      },
+      {"name": "fast-underground-belt", "direction": 4, "type": "input", "position": {"x": 6.5, "y": 1.5}},
+      {
+        "name": "fast-underground-belt",
+        "direction": 12,
+        "type": "input",
+        "position": {"x": 2.5, "y": 6.5}
+      },
+      {
+        "name": "fast-underground-belt",
+        "direction": 12,
+        "type": "output",
+        "position": {"x": 3.5, "y": 6.5}
+      },
+      {
+        "name": "fast-underground-belt",
+        "direction": 12,
+        "type": "input",
+        "position": {"x": 8.5, "y": 0.5}
+      },
+      {
+        "name": "fast-underground-belt",
+        "direction": 12,
+        "type": "output",
+        "position": {"x": 9.5, "y": 0.5}
+      },
+      {
+        "name": "fast-underground-belt",
+        "direction": 4,
+        "type": "output",
+        "position": {"x": 11.5, "y": 1.5}
+      },
+      {
+        "name": "fast-underground-belt",
+        "direction": 4,
+        "type": "input",
+        "position": {"x": 12.5, "y": 1.5}
+      },
+      {
+        "name": "fast-underground-belt",
+        "direction": 12,
+        "type": "input",
+        "position": {"x": 14.5, "y": 0.5}
+      },
+      {
+        "name": "fast-underground-belt",
+        "direction": 12,
+        "type": "output",
+        "position": {"x": 15.5, "y": 0.5}
+      },
+      {
+        "name": "fast-underground-belt",
+        "direction": 12,
+        "type": "input",
+        "position": {"x": 8.5, "y": 6.5}
+      },
+      {
+        "name": "fast-underground-belt",
+        "direction": 12,
+        "type": "output",
+        "position": {"x": 9.5, "y": 6.5}
+      },
+      {
+        "name": "fast-underground-belt",
+        "direction": 12,
+        "type": "input",
+        "position": {"x": 14.5, "y": 6.5}
+      },
+      {
+        "name": "fast-underground-belt",
+        "direction": 12,
+        "type": "output",
+        "position": {"x": 15.5, "y": 6.5}
+      },
+      {
+        "name": "fast-underground-belt",
+        "direction": 4,
+        "type": "output",
+        "position": {"x": 17.5, "y": 1.5}
+      },
+      {
+        "name": "fast-underground-belt",
+        "direction": 4,
+        "type": "input",
+        "position": {"x": 18.5, "y": 1.5}
+      },
+      {
+        "name": "fast-underground-belt",
+        "direction": 12,
+        "type": "input",
+        "position": {"x": 20.5, "y": 0.5}
+      },
+      {
+        "name": "fast-underground-belt",
+        "direction": 12,
+        "type": "output",
+        "position": {"x": 21.5, "y": 0.5}
+      },
+      {
+        "name": "fast-underground-belt",
+        "direction": 4,
+        "type": "output",
+        "position": {"x": 23.5, "y": 1.5}
+      },
+      {
+        "name": "fast-underground-belt",
+        "direction": 12,
+        "type": "input",
+        "position": {"x": 20.5, "y": 6.5}
+      },
+      {
+        "name": "fast-underground-belt",
+        "direction": 12,
+        "type": "output",
+        "position": {"x": 21.5, "y": 6.5}
+      },
+      {
+        "name": "fast-underground-belt",
+        "direction": 12,
+        "type": "input",
+        "position": {"x": 25.5, "y": 0.5}
+      },
+      {
+        "name": "fast-underground-belt",
+        "direction": 4,
+        "type": "input",
+        "position": {"x": 24.5, "y": 1.5}
+      },
+      {
+        "name": "fast-underground-belt",
+        "direction": 4,
+        "type": "output",
+        "position": {"x": 30.5, "y": 1.5}
+      },
+      {
+        "name": "fast-underground-belt",
+        "direction": 4,
+        "type": "input",
+        "position": {"x": 31.5, "y": 1.5}
+      },
+      {"name": "fast-underground-belt", "type": "output", "position": {"x": 28.5, "y": 2.5}},
+      {"name": "fast-underground-belt", "type": "input", "position": {"x": 28.5, "y": 3.5}},
+      {
+        "name": "fast-underground-belt",
+        "direction": 12,
+        "type": "input",
+        "position": {"x": 24.5, "y": 6.5}
+      },
+      {
+        "name": "fast-underground-belt",
+        "direction": 12,
+        "type": "output",
+        "position": {"x": 25.5, "y": 6.5}
+      },
+      {
+        "name": "fast-underground-belt",
+        "direction": 12,
+        "type": "output",
+        "position": {"x": 30.5, "y": 5.5}
+      },
+      {
+        "name": "fast-underground-belt",
+        "direction": 12,
+        "type": "input",
+        "position": {"x": 28.5, "y": 6.5}
+      },
+      {
+        "name": "fast-underground-belt",
+        "direction": 12,
+        "type": "output",
+        "position": {"x": 30.5, "y": 6.5}
+      },
+      {"name": "medium-electric-pole", "position": {"x": 4.5, "y": -0.5}},
+      {"name": "medium-electric-pole", "position": {"x": 11.5, "y": -0.5}},
+      {"name": "medium-electric-pole", "position": {"x": 18.5, "y": -0.5}},
+      {"name": "medium-electric-pole", "position": {"x": 1.5, "y": 5.5}},
+      {"name": "medium-electric-pole", "position": {"x": 10.5, "y": 5.5}},
+      {"name": "medium-electric-pole", "position": {"x": 17.5, "y": 5.5}},
+      {"name": "medium-electric-pole", "position": {"x": 24.5, "y": 0.5}},
+      {"name": "medium-electric-pole", "position": {"x": 24.5, "y": 5.5}}
+    ],
+    "icons": [{"index": 1, "signal": {"name": "advanced-circuit"}}],
+    "snap-to-grid": {"x": 32, "y": 8},
+    "wires": [
+      ["4,0", 5, "11,0", 5],
+      ["4,0", 5, "1,6", 5],
+      ["4,0", 5, "10,6", 5],
+      ["11,0", 5, "18,0", 5],
+      ["11,0", 5, "17,6", 5],
+      ["18,0", 5, "24,1", 5],
+      ["18,0", 5, "24,6", 5],
+      ["24,1", 5, "17,6", 5],
+      ["10,6", 5, "17,6", 5],
+      ["17,6", 5, "24,6", 5]
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "index": 1,
+  "blueprint_book": {
+    "item": "blueprint-book",
+    "label": "Beaconed Setups",
+    "active_index": 0,
+    "version": 562949957025792,
+    "icons": [
+      {"index": 1, "signal": {"name": "assembling-machine-3"}},
+      {"index": 2, "signal": {"name": "beacon"}}
+    ]
+  }
+}
