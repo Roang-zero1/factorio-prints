@@ -1,0 +1,9 @@
+{
+  "index": 16,
+  "blueprint_book": {
+    "item": "blueprint-book",
+    "label": "(1,2) [item=automation-science-pack]/[item=logistic-science-pack]/[item=military-science-pack]/[item=solar-panel]/[item=accumulator]/[item=laser-turret]",
+    "active_index": 0,
+    "version": 562949957025792
+  }
+}

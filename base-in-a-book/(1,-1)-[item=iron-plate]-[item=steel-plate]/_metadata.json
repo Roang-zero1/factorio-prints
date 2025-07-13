@@ -1,0 +1,9 @@
+{
+  "index": 34,
+  "blueprint_book": {
+    "item": "blueprint-book",
+    "label": "(1,-1) [item=iron-plate]/[item=steel-plate]",
+    "active_index": 2,
+    "version": 562949957025792
+  }
+}

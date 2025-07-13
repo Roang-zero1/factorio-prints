@@ -1,0 +1,161 @@
+{
+  "index": 25,
+  "blueprint": {
+    "item": "blueprint",
+    "label": "UPDATED! (-1,0) Empty",
+    "absolute-snapping": true,
+    "shift_x": 4,
+    "shift_y": 4,
+    "version": 562949957025792,
+    "entities": [
+      {"name": "big-electric-pole", "position": {"x": 1, "y": 1}},
+      {"name": "big-electric-pole", "position": {"x": 31, "y": 1}},
+      {"name": "big-electric-pole", "position": {"x": 1, "y": 31}},
+      {"name": "big-electric-pole", "position": {"x": 24, "y": 24}},
+      {"name": "big-electric-pole", "position": {"x": 61, "y": 1}},
+      {"name": "big-electric-pole", "position": {"x": 1, "y": 61}},
+      {"name": "big-electric-pole", "position": {"x": 91, "y": 1}},
+      {"name": "big-electric-pole", "position": {"x": 68, "y": 24}},
+      {"name": "big-electric-pole", "position": {"x": 91, "y": 31}},
+      {"name": "big-electric-pole", "position": {"x": 91, "y": 61}},
+      {"name": "big-electric-pole", "position": {"x": 24, "y": 68}},
+      {"name": "big-electric-pole", "position": {"x": 1, "y": 91}},
+      {"name": "big-electric-pole", "position": {"x": 31, "y": 91}},
+      {"name": "big-electric-pole", "position": {"x": 61, "y": 91}},
+      {"name": "big-electric-pole", "position": {"x": 68, "y": 68}},
+      {"name": "big-electric-pole", "position": {"x": 91, "y": 91}},
+      {
+        "name": "roboport",
+        "position": {"x": 21, "y": 21},
+        "request_filters": {"sections": [{"index": 1}]}
+      },
+      {
+        "name": "roboport",
+        "position": {"x": 71, "y": 21},
+        "request_filters": {"sections": [{"index": 1}]}
+      },
+      {
+        "name": "roboport",
+        "position": {"x": 21, "y": 71},
+        "request_filters": {"sections": [{"index": 1}]}
+      },
+      {
+        "name": "roboport",
+        "position": {"x": 71, "y": 71},
+        "request_filters": {"sections": [{"index": 1}]}
+      },
+      {"name": "small-lamp", "color": {"a": 1, "b": 1, "g": 1, "r": 1}, "position": {"x": 2.5, "y": 0.5}},
+      {"name": "small-lamp", "color": {"a": 1, "b": 1, "g": 1, "r": 1}, "position": {"x": 0.5, "y": 2.5}},
+      {"name": "small-lamp", "color": {"a": 1, "b": 1, "g": 1, "r": 1}, "position": {"x": 29.5, "y": 0.5}},
+      {"name": "small-lamp", "color": {"a": 1, "b": 1, "g": 1, "r": 1}, "position": {"x": 0.5, "y": 29.5}},
+      {"name": "small-lamp", "color": {"a": 1, "b": 1, "g": 1, "r": 1}, "position": {"x": 32.5, "y": 0.5}},
+      {"name": "small-lamp", "color": {"a": 1, "b": 1, "g": 1, "r": 1}, "position": {"x": 59.5, "y": 0.5}},
+      {"name": "small-lamp", "color": {"a": 1, "b": 1, "g": 1, "r": 1}, "position": {"x": 62.5, "y": 0.5}},
+      {"name": "small-lamp", "color": {"a": 1, "b": 1, "g": 1, "r": 1}, "position": {"x": 0.5, "y": 32.5}},
+      {"name": "small-lamp", "color": {"a": 1, "b": 1, "g": 1, "r": 1}, "position": {"x": 0.5, "y": 59.5}},
+      {"name": "small-lamp", "color": {"a": 1, "b": 1, "g": 1, "r": 1}, "position": {"x": 0.5, "y": 62.5}},
+      {"name": "small-lamp", "color": {"a": 1, "b": 1, "g": 1, "r": 1}, "position": {"x": 89.5, "y": 0.5}},
+      {"name": "small-lamp", "color": {"a": 1, "b": 1, "g": 1, "r": 1}, "position": {"x": 91.5, "y": 2.5}},
+      {
+        "name": "small-lamp",
+        "color": {"a": 1, "b": 1, "g": 1, "r": 1},
+        "position": {"x": 91.5, "y": 29.5}
+      },
+      {
+        "name": "small-lamp",
+        "color": {"a": 1, "b": 1, "g": 1, "r": 1},
+        "position": {"x": 91.5, "y": 32.5}
+      },
+      {
+        "name": "small-lamp",
+        "color": {"a": 1, "b": 1, "g": 1, "r": 1},
+        "position": {"x": 91.5, "y": 59.5}
+      },
+      {
+        "name": "small-lamp",
+        "color": {"a": 1, "b": 1, "g": 1, "r": 1},
+        "position": {"x": 91.5, "y": 62.5}
+      },
+      {"name": "small-lamp", "color": {"a": 1, "b": 1, "g": 1, "r": 1}, "position": {"x": 0.5, "y": 89.5}},
+      {"name": "small-lamp", "color": {"a": 1, "b": 1, "g": 1, "r": 1}, "position": {"x": 2.5, "y": 91.5}},
+      {
+        "name": "small-lamp",
+        "color": {"a": 1, "b": 1, "g": 1, "r": 1},
+        "position": {"x": 29.5, "y": 91.5}
+      },
+      {
+        "name": "small-lamp",
+        "color": {"a": 1, "b": 1, "g": 1, "r": 1},
+        "position": {"x": 32.5, "y": 91.5}
+      },
+      {
+        "name": "small-lamp",
+        "color": {"a": 1, "b": 1, "g": 1, "r": 1},
+        "position": {"x": 59.5, "y": 91.5}
+      },
+      {
+        "name": "small-lamp",
+        "color": {"a": 1, "b": 1, "g": 1, "r": 1},
+        "position": {"x": 62.5, "y": 91.5}
+      },
+      {
+        "name": "small-lamp",
+        "color": {"a": 1, "b": 1, "g": 1, "r": 1},
+        "position": {"x": 91.5, "y": 89.5}
+      },
+      {
+        "name": "small-lamp",
+        "color": {"a": 1, "b": 1, "g": 1, "r": 1},
+        "position": {"x": 89.5, "y": 91.5}
+      }
+    ],
+    "icons": [{"index": 1, "signal": {"name": "big-electric-pole"}}],
+    "snap-to-grid": {"x": 100, "y": 100},
+    "wires": [
+      ["0.5,0.5", 1, "30.5,0.5", 1],
+      ["0.5,0.5", 1, "0.5,30.5", 1],
+      ["0.5,0.5", 2, "30.5,0.5", 2],
+      ["0.5,0.5", 2, "0.5,30.5", 2],
+      ["0.5,0.5", 5, "30.5,0.5", 5],
+      ["0.5,0.5", 5, "0.5,30.5", 5],
+      ["30.5,0.5", 1, "60.5,0.5", 1],
+      ["30.5,0.5", 2, "60.5,0.5", 2],
+      ["30.5,0.5", 5, "60.5,0.5", 5],
+      ["30.5,0.5", 5, "23.5,23.5", 5],
+      ["60.5,0.5", 1, "90.5,0.5", 1],
+      ["60.5,0.5", 2, "90.5,0.5", 2],
+      ["60.5,0.5", 5, "90.5,0.5", 5],
+      ["60.5,0.5", 5, "67.5,23.5", 5],
+      ["90.5,0.5", 1, "90.5,30.5", 1],
+      ["90.5,0.5", 2, "90.5,30.5", 2],
+      ["90.5,0.5", 5, "90.5,30.5", 5],
+      ["23.5,23.5", 5, "0.5,30.5", 5],
+      ["67.5,23.5", 5, "90.5,30.5", 5],
+      ["0.5,30.5", 1, "0.5,60.5", 1],
+      ["0.5,30.5", 2, "0.5,60.5", 2],
+      ["0.5,30.5", 5, "0.5,60.5", 5],
+      ["90.5,30.5", 1, "90.5,60.5", 1],
+      ["90.5,30.5", 2, "90.5,60.5", 2],
+      ["90.5,30.5", 5, "90.5,60.5", 5],
+      ["0.5,60.5", 1, "0.5,90.5", 1],
+      ["0.5,60.5", 2, "0.5,90.5", 2],
+      ["0.5,60.5", 5, "23.5,67.5", 5],
+      ["0.5,60.5", 5, "0.5,90.5", 5],
+      ["90.5,60.5", 1, "90.5,90.5", 1],
+      ["90.5,60.5", 2, "90.5,90.5", 2],
+      ["90.5,60.5", 5, "67.5,67.5", 5],
+      ["90.5,60.5", 5, "90.5,90.5", 5],
+      ["23.5,67.5", 5, "30.5,90.5", 5],
+      ["67.5,67.5", 5, "60.5,90.5", 5],
+      ["0.5,90.5", 1, "30.5,90.5", 1],
+      ["0.5,90.5", 2, "30.5,90.5", 2],
+      ["0.5,90.5", 5, "30.5,90.5", 5],
+      ["30.5,90.5", 1, "60.5,90.5", 1],
+      ["30.5,90.5", 2, "60.5,90.5", 2],
+      ["30.5,90.5", 5, "60.5,90.5", 5],
+      ["60.5,90.5", 1, "90.5,90.5", 1],
+      ["60.5,90.5", 2, "90.5,90.5", 2],
+      ["60.5,90.5", 5, "90.5,90.5", 5]
+    ]
+  }
+}
