@@ -1,0 +1,360 @@
+{
+  "index": 2,
+  "blueprint": {
+    "item": "blueprint",
+    "label": "Chain [item=stone-wall] - Inside",
+    "shift_x": -7,
+    "shift_y": -7,
+    "version": 562949957025792,
+    "entities": [
+      {"name": "gun-turret", "position": {"x": 10, "y": 0}},
+      {"name": "gun-turret", "position": {"x": 10, "y": 3}},
+      {"name": "gun-turret", "position": {"x": 2, "y": 10}},
+      {"name": "gun-turret", "position": {"x": 5, "y": 10}},
+      {"name": "inserter", "direction": 4, "position": {"x": 11.5, "y": -0.5}},
+      {"name": "inserter", "direction": 4, "position": {"x": 11.5, "y": 2.5}},
+      {"name": "inserter", "direction": 8, "position": {"x": 1.5, "y": 11.5}},
+      {"name": "inserter", "direction": 8, "position": {"x": 5.5, "y": 11.5}},
+      {"name": "medium-electric-pole", "position": {"x": 11.5, "y": 0.5}},
+      {"name": "medium-electric-pole", "position": {"x": 11.5, "y": 6.5}},
+      {"name": "medium-electric-pole", "position": {"x": 4.5, "y": 11.5}},
+      {"name": "medium-electric-pole", "position": {"x": 11.5, "y": 11.5}},
+      {
+        "name": "splitter",
+        "input_priority": "right",
+        "output_priority": "right",
+        "filter": {"name": "barrel", "comparator": "=", "quality": "normal"},
+        "position": {"x": 13, "y": 0.5}
+      },
+      {
+        "name": "splitter",
+        "direction": 8,
+        "input_priority": "right",
+        "output_priority": "left",
+        "filter": {"name": "barrel", "comparator": "=", "quality": "normal"},
+        "position": {"x": 15, "y": 0.5}
+      },
+      {"name": "splitter", "direction": 4, "output_priority": "left", "position": {"x": 0.5, "y": 13}},
+      {
+        "name": "splitter",
+        "direction": 4,
+        "input_priority": "right",
+        "output_priority": "right",
+        "filter": {"name": "barrel", "comparator": "=", "quality": "normal"},
+        "position": {"x": 4.5, "y": 13}
+      },
+      {
+        "name": "splitter",
+        "direction": 12,
+        "input_priority": "right",
+        "output_priority": "left",
+        "filter": {"name": "barrel", "comparator": "=", "quality": "normal"},
+        "position": {"x": 4.5, "y": 15}
+      },
+      {"name": "stone-wall", "position": {"x": 3.5, "y": -0.5}},
+      {"name": "stone-wall", "position": {"x": 4.5, "y": -0.5}},
+      {"name": "stone-wall", "position": {"x": -0.5, "y": 3.5}},
+      {"name": "stone-wall", "position": {"x": -0.5, "y": 4.5}},
+      {"name": "stone-wall", "position": {"x": 3.5, "y": 0.5}},
+      {"name": "stone-wall", "position": {"x": 3.5, "y": 1.5}},
+      {"name": "stone-wall", "position": {"x": 0.5, "y": 3.5}},
+      {"name": "stone-wall", "position": {"x": 1.5, "y": 3.5}},
+      {"name": "stone-wall", "position": {"x": 3.5, "y": 2.5}},
+      {"name": "stone-wall", "position": {"x": 2.5, "y": 3.5}},
+      {"name": "stone-wall", "position": {"x": 3.5, "y": 3.5}},
+      {"name": "stone-wall", "position": {"x": 4.5, "y": 0.5}},
+      {"name": "stone-wall", "position": {"x": 4.5, "y": 1.5}},
+      {"name": "stone-wall", "position": {"x": 4.5, "y": 2.5}},
+      {"name": "stone-wall", "position": {"x": 4.5, "y": 3.5}},
+      {"name": "stone-wall", "position": {"x": 0.5, "y": 4.5}},
+      {"name": "stone-wall", "position": {"x": 1.5, "y": 4.5}},
+      {"name": "stone-wall", "position": {"x": 2.5, "y": 4.5}},
+      {"name": "stone-wall", "position": {"x": 3.5, "y": 4.5}},
+      {"name": "stone-wall", "position": {"x": 4.5, "y": 4.5}},
+      {
+        "name": "transport-belt",
+        "control_behavior": {
+          "circuit_contents_read_mode": 1,
+          "circuit_enabled": true,
+          "circuit_read_hand_contents": true,
+          "circuit_condition": {"comparator": "=", "constant": 0, "first_signal": {"name": "signal-green", "type": "virtual"}}
+        },
+        "position": {"x": 12.5, "y": -0.5}
+      },
+      {
+        "name": "transport-belt",
+        "direction": 4,
+        "control_behavior": {"circuit_contents_read_mode": 1, "circuit_read_hand_contents": true},
+        "position": {"x": 13.5, "y": -0.5}
+      },
+      {
+        "name": "transport-belt",
+        "direction": 8,
+        "control_behavior": {"circuit_contents_read_mode": 1, "circuit_read_hand_contents": true},
+        "position": {"x": 14.5, "y": -0.5}
+      },
+      {
+        "name": "transport-belt",
+        "direction": 4,
+        "control_behavior": {"circuit_contents_read_mode": 1, "circuit_read_hand_contents": true},
+        "position": {"x": -0.5, "y": 12.5}
+      },
+      {
+        "name": "transport-belt",
+        "direction": 12,
+        "control_behavior": {"circuit_contents_read_mode": 1, "circuit_read_hand_contents": true},
+        "position": {"x": -0.5, "y": 13.5}
+      },
+      {
+        "name": "transport-belt",
+        "control_behavior": {"circuit_contents_read_mode": 1, "circuit_read_hand_contents": true},
+        "position": {"x": -0.5, "y": 14.5}
+      },
+      {
+        "name": "transport-belt",
+        "control_behavior": {
+          "circuit_contents_read_mode": 1,
+          "circuit_read_hand_contents": true,
+          "circuit_condition": {"comparator": "<", "constant": 30, "first_signal": {"name": "signal-black", "type": "virtual"}}
+        },
+        "position": {"x": 12.5, "y": 1.5}
+      },
+      {
+        "name": "transport-belt",
+        "control_behavior": {"circuit_contents_read_mode": 1, "circuit_read_hand_contents": true},
+        "position": {"x": 13.5, "y": 1.5}
+      },
+      {
+        "name": "transport-belt",
+        "direction": 12,
+        "control_behavior": {"circuit_contents_read_mode": 1, "circuit_read_hand_contents": true},
+        "position": {"x": 14.5, "y": 1.5}
+      },
+      {
+        "name": "transport-belt",
+        "control_behavior": {"circuit_contents_read_mode": 1, "circuit_read_hand_contents": true},
+        "position": {"x": 12.5, "y": 2.5}
+      },
+      {
+        "name": "transport-belt",
+        "control_behavior": {"circuit_contents_read_mode": 1, "circuit_read_hand_contents": true},
+        "position": {"x": 12.5, "y": 3.5}
+      },
+      {
+        "name": "transport-belt",
+        "control_behavior": {"circuit_contents_read_mode": 1, "circuit_read_hand_contents": true},
+        "position": {"x": 12.5, "y": 4.5}
+      },
+      {
+        "name": "transport-belt",
+        "control_behavior": {"circuit_contents_read_mode": 1, "circuit_read_hand_contents": true},
+        "position": {"x": 12.5, "y": 5.5}
+      },
+      {
+        "name": "transport-belt",
+        "control_behavior": {"circuit_contents_read_mode": 1, "circuit_read_hand_contents": true},
+        "position": {"x": 12.5, "y": 6.5}
+      },
+      {
+        "name": "transport-belt",
+        "control_behavior": {"circuit_contents_read_mode": 1, "circuit_read_hand_contents": true},
+        "position": {"x": 12.5, "y": 7.5}
+      },
+      {
+        "name": "transport-belt",
+        "direction": 4,
+        "control_behavior": {
+          "circuit_contents_read_mode": 1,
+          "circuit_enabled": true,
+          "circuit_read_hand_contents": false,
+          "circuit_condition": {"comparator": ">", "constant": 25, "first_signal": {"name": "signal-black", "type": "virtual"}}
+        },
+        "position": {"x": 1.5, "y": 12.5}
+      },
+      {
+        "name": "transport-belt",
+        "direction": 8,
+        "control_behavior": {"circuit_contents_read_mode": 1, "circuit_read_hand_contents": true},
+        "position": {"x": 1.5, "y": 13.5}
+      },
+      {
+        "name": "transport-belt",
+        "direction": 4,
+        "control_behavior": {
+          "circuit_contents_read_mode": 1,
+          "circuit_enabled": true,
+          "circuit_read_hand_contents": true,
+          "circuit_condition": {"comparator": "<", "constant": 60, "first_signal": {"name": "signal-black", "type": "virtual"}}
+        },
+        "position": {"x": 2.5, "y": 12.5}
+      },
+      {
+        "name": "transport-belt",
+        "direction": 4,
+        "control_behavior": {
+          "circuit_contents_read_mode": 1,
+          "circuit_read_hand_contents": true,
+          "circuit_condition": {"comparator": "<", "constant": 30, "first_signal": {"name": "signal-black", "type": "virtual"}}
+        },
+        "position": {"x": 3.5, "y": 12.5}
+      },
+      {
+        "name": "transport-belt",
+        "direction": 4,
+        "control_behavior": {"circuit_contents_read_mode": 1, "circuit_read_hand_contents": true},
+        "position": {"x": 3.5, "y": 13.5}
+      },
+      {
+        "name": "transport-belt",
+        "direction": 12,
+        "control_behavior": {"circuit_contents_read_mode": 1, "circuit_read_hand_contents": true},
+        "position": {"x": 0.5, "y": 14.5}
+      },
+      {
+        "name": "transport-belt",
+        "direction": 12,
+        "control_behavior": {"circuit_contents_read_mode": 1, "circuit_read_hand_contents": true},
+        "position": {"x": 1.5, "y": 14.5}
+      },
+      {
+        "name": "transport-belt",
+        "control_behavior": {"circuit_contents_read_mode": 1, "circuit_read_hand_contents": true},
+        "position": {"x": 3.5, "y": 14.5}
+      },
+      {
+        "name": "transport-belt",
+        "direction": 4,
+        "control_behavior": {
+          "circuit_contents_read_mode": 1,
+          "circuit_enabled": true,
+          "circuit_read_hand_contents": true,
+          "circuit_condition": {"comparator": "=", "constant": 0, "first_signal": {"name": "signal-green", "type": "virtual"}}
+        },
+        "position": {"x": 5.5, "y": 12.5}
+      },
+      {
+        "name": "transport-belt",
+        "direction": 8,
+        "control_behavior": {"circuit_contents_read_mode": 1, "circuit_read_hand_contents": true},
+        "position": {"x": 5.5, "y": 13.5}
+      },
+      {
+        "name": "transport-belt",
+        "direction": 4,
+        "control_behavior": {
+          "circuit_contents_read_mode": 1,
+          "circuit_enabled": true,
+          "circuit_read_hand_contents": true,
+          "circuit_condition": {"comparator": "≥", "constant": 0, "first_signal": {"name": "signal-black", "type": "virtual"}}
+        },
+        "position": {"x": 6.5, "y": 12.5}
+      },
+      {
+        "name": "transport-belt",
+        "direction": 4,
+        "control_behavior": {"circuit_contents_read_mode": 1, "circuit_read_hand_contents": true},
+        "position": {"x": 7.5, "y": 12.5}
+      },
+      {
+        "name": "transport-belt",
+        "direction": 12,
+        "control_behavior": {"circuit_contents_read_mode": 1, "circuit_read_hand_contents": true},
+        "position": {"x": 5.5, "y": 14.5}
+      },
+      {
+        "name": "transport-belt",
+        "control_behavior": {"circuit_contents_read_mode": 1, "circuit_read_hand_contents": true},
+        "position": {"x": 12.5, "y": 8.5}
+      },
+      {
+        "name": "transport-belt",
+        "control_behavior": {"circuit_contents_read_mode": 1, "circuit_read_hand_contents": true},
+        "position": {"x": 12.5, "y": 9.5}
+      },
+      {
+        "name": "transport-belt",
+        "control_behavior": {"circuit_contents_read_mode": 1, "circuit_read_hand_contents": true},
+        "position": {"x": 12.5, "y": 10.5}
+      },
+      {
+        "name": "transport-belt",
+        "control_behavior": {"circuit_contents_read_mode": 1, "circuit_read_hand_contents": true},
+        "position": {"x": 12.5, "y": 11.5}
+      },
+      {
+        "name": "transport-belt",
+        "direction": 4,
+        "control_behavior": {"circuit_contents_read_mode": 1, "circuit_read_hand_contents": true},
+        "position": {"x": 8.5, "y": 12.5}
+      },
+      {
+        "name": "transport-belt",
+        "direction": 4,
+        "control_behavior": {"circuit_contents_read_mode": 1, "circuit_read_hand_contents": true},
+        "position": {"x": 9.5, "y": 12.5}
+      },
+      {
+        "name": "transport-belt",
+        "direction": 4,
+        "control_behavior": {"circuit_contents_read_mode": 1, "circuit_read_hand_contents": true},
+        "position": {"x": 10.5, "y": 12.5}
+      },
+      {
+        "name": "transport-belt",
+        "direction": 4,
+        "control_behavior": {"circuit_contents_read_mode": 1, "circuit_read_hand_contents": true},
+        "position": {"x": 11.5, "y": 12.5}
+      },
+      {
+        "name": "transport-belt",
+        "control_behavior": {"circuit_contents_read_mode": 1, "circuit_read_hand_contents": true},
+        "position": {"x": 12.5, "y": 12.5}
+      }
+    ],
+    "icons": [
+      {"index": 1, "signal": {"name": "stone-wall"}},
+      {"index": 2, "signal": {"name": "transport-belt"}},
+      {"index": 3, "signal": {"name": "transport-belt"}},
+      {"index": 4, "signal": {"name": "transport-belt"}}
+    ],
+    "wires": [
+      ["12,1", 5, "12,7", 5],
+      ["14,0", 1, "15,0", 1],
+      ["15,0", 1, "15,2", 1],
+      ["13,3", 1, "13,2", 1],
+      ["13,3", 1, "13,4", 1],
+      ["14,2", 1, "13,2", 1],
+      ["14,2", 1, "15,2", 1],
+      ["13,5", 1, "13,4", 1],
+      ["13,5", 1, "13,6", 1],
+      ["12,7", 5, "5,12", 5],
+      ["12,7", 5, "12,12", 5],
+      ["13,7", 1, "13,6", 1],
+      ["13,7", 1, "13,8", 1],
+      ["13,9", 1, "13,8", 1],
+      ["13,9", 1, "13,10", 1],
+      ["13,11", 1, "13,10", 1],
+      ["13,11", 1, "13,12", 1],
+      ["0,13", 1, "2,13", 1],
+      ["2,13", 1, "2,14", 1],
+      ["4,13", 1, "3,13", 1],
+      ["4,13", 1, "4,14", 1],
+      ["6,13", 1, "7,13", 1],
+      ["6,13", 1, "6,14", 1],
+      ["8,13", 1, "7,13", 1],
+      ["8,13", 1, "9,13", 1],
+      ["10,13", 1, "9,13", 1],
+      ["10,13", 1, "11,13", 1],
+      ["12,13", 1, "11,13", 1],
+      ["12,13", 1, "13,13", 1],
+      ["13,13", 1, "13,12", 1],
+      ["0,15", 1, "0,14", 1],
+      ["0,15", 1, "1,15", 1],
+      ["2,15", 1, "1,15", 1],
+      ["2,15", 1, "2,14", 1],
+      ["4,15", 1, "4,14", 1],
+      ["4,15", 1, "6,15", 1],
+      ["6,15", 1, "6,14", 1]
+    ]
+  }
+}

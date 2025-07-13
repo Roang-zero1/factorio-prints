@@ -1,0 +1,173 @@
+{
+  "index": 12,
+  "blueprint": {
+    "item": "blueprint",
+    "label": "Corner [item=stone-wall] - [item=uranium-rounds-magazine]",
+    "shift_x": -5,
+    "shift_y": -3,
+    "version": 562949957025792,
+    "entities": [
+      {
+        "name": "arithmetic-combinator",
+        "direction": 12,
+        "control_behavior": {
+          "arithmetic_conditions": {
+            "operation": "*",
+            "second_constant": -1,
+            "first_signal": {"name": "signal-each", "type": "virtual"},
+            "output_signal": {"name": "signal-each", "type": "virtual"}
+          }
+        },
+        "position": {"x": 7, "y": 6.5}
+      },
+      {"name": "big-electric-pole", "position": {"x": 11, "y": 3}},
+      {
+        "name": "bulk-inserter",
+        "use_filters": true,
+        "control_behavior": {
+          "circuit_set_filters": true,
+          "connect_to_logistic_network": true,
+          "logistic_condition": {"comparator": "<", "constant": 40, "first_signal": {"name": "repair-pack"}}
+        },
+        "filters": [{"name": "repair-pack", "comparator": "=", "index": 1, "quality": "normal"}],
+        "position": {"x": -0.5, "y": 9.5}
+      },
+      {
+        "name": "bulk-inserter",
+        "direction": 8,
+        "use_filters": true,
+        "control_behavior": {
+          "circuit_enabled": true,
+          "connect_to_logistic_network": true,
+          "logistic_condition": {"comparator": "<", "constant": 600, "first_signal": {"name": "uranium-rounds-magazine"}}
+        },
+        "filters": [{"name": "uranium-rounds-magazine", "comparator": "=", "index": 1, "quality": "normal"}],
+        "position": {"x": 1.5, "y": 6.5}
+      },
+      {
+        "name": "bulk-inserter",
+        "direction": 8,
+        "use_filters": true,
+        "control_behavior": {
+          "circuit_enabled": true,
+          "connect_to_logistic_network": true,
+          "logistic_condition": {"comparator": "<", "constant": 600, "first_signal": {"name": "uranium-rounds-magazine"}}
+        },
+        "filters": [{"name": "uranium-rounds-magazine", "comparator": "=", "index": 1, "quality": "normal"}],
+        "position": {"x": 2.5, "y": 6.5}
+      },
+      {
+        "name": "bulk-inserter",
+        "direction": 8,
+        "use_filters": true,
+        "control_behavior": {
+          "circuit_enabled": true,
+          "connect_to_logistic_network": true,
+          "logistic_condition": {"comparator": "<", "constant": 600, "first_signal": {"name": "uranium-rounds-magazine"}}
+        },
+        "filters": [{"name": "uranium-rounds-magazine", "comparator": "=", "index": 1, "quality": "normal"}],
+        "position": {"x": 3.5, "y": 6.5}
+      },
+      {
+        "name": "constant-combinator",
+        "direction": 4,
+        "control_behavior": {
+          "sections": {
+            "sections": [
+              {
+                "index": 1,
+                "filters": [
+                  {
+                    "name": "uranium-rounds-magazine",
+                    "comparator": "=",
+                    "count": 150,
+                    "index": 1,
+                    "quality": "normal"
+                  },
+                  {"name": "repair-pack", "comparator": "=", "count": 5, "index": 2, "quality": "normal"}
+                ]
+              }
+            ]
+          }
+        },
+        "position": {"x": 8.5, "y": 6.5}
+      },
+      {
+        "name": "constant-combinator",
+        "direction": 12,
+        "control_behavior": {
+          "sections": {
+            "sections": [
+              {
+                "index": 1,
+                "filters": [
+                  {
+                    "name": "uranium-rounds-magazine",
+                    "comparator": "=",
+                    "count": 150,
+                    "index": 1,
+                    "quality": "normal"
+                  },
+                  {"name": "repair-pack", "comparator": "=", "count": 5, "index": 2, "quality": "normal"}
+                ]
+              }
+            ]
+          }
+        },
+        "position": {"x": 7.5, "y": 10.5}
+      },
+      {
+        "name": "decider-combinator",
+        "direction": 4,
+        "control_behavior": {
+          "decider_conditions": {
+            "conditions": [{"comparator": ">", "first_signal": {"name": "signal-anything", "type": "virtual"}}],
+            "outputs": [{"copy_count_from_input": false, "signal": {"name": "signal-green", "type": "virtual"}}]
+          }
+        },
+        "position": {"x": 7, "y": 9.5}
+      },
+      {
+        "name": "decider-combinator",
+        "direction": 4,
+        "control_behavior": {
+          "decider_conditions": {
+            "conditions": [{"constant": 1}],
+            "outputs": [{"signal": {"name": "signal-green", "type": "virtual"}}]
+          }
+        },
+        "position": {"x": 9, "y": 9.5}
+      },
+      {"name": "medium-electric-pole", "position": {"x": -1.5, "y": 9.5}},
+      {"name": "medium-electric-pole", "position": {"x": 5.5, "y": 9.5}},
+      {"name": "medium-electric-pole", "position": {"x": 8.5, "y": 10.5}},
+      {"name": "passive-provider-chest", "bar": 1, "position": {"x": -0.5, "y": 10.5}},
+      {"name": "passive-provider-chest", "position": {"x": 1.5, "y": 5.5}},
+      {"name": "passive-provider-chest", "position": {"x": 2.5, "y": 5.5}},
+      {"name": "passive-provider-chest", "position": {"x": 3.5, "y": 5.5}},
+      {"name": "roboport", "position": {"x": 9, "y": 0}, "request_filters": {"sections": [{"index": 1}]}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": 0, "y": 8}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": 2, "y": 8}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": 4, "y": 8}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": 6, "y": 8}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": 8, "y": 8}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": 10, "y": 8}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": 12, "y": 8}}
+    ],
+    "icons": [
+      {"index": 1, "signal": {"name": "rail"}},
+      {"index": 2, "signal": {"name": "passive-provider-chest"}}
+    ],
+    "wires": [
+      ["10.5,0", 1, "8.5,6.5", 1],
+      ["10.5,0", 2, "12.5,3", 2],
+      ["12.5,3", 1, "10,6.5", 1],
+      ["12.5,3", 5, "7,9.5", 5],
+      ["12.5,3", 5, "10,10.5", 5],
+      ["8.5,6.5", 4, "8.5,9.5", 2],
+      ["0,9.5", 5, "7,9.5", 5],
+      ["8.5,9.5", 2, "9,10.5", 2],
+      ["8.5,9.5", 3, "10.5,9.5", 1]
+    ]
+  }
+}

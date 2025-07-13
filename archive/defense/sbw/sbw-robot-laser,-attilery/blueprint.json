@@ -1,0 +1,34 @@
+{
+  "index": 0,
+  "blueprint": {
+    "item": "blueprint",
+    "version": 562949957025792,
+    "entities": [
+      {
+        "name": "constant-combinator",
+        "control_behavior": {
+          "sections": {
+            "sections": [
+              {
+                "index": 1,
+                "filters": [
+                  {"name": "stone-wall", "comparator": "=", "count": 10, "index": 1, "quality": "normal"},
+                  {"name": "gun-turret", "comparator": "=", "count": 3, "index": 2, "quality": "normal"},
+                  {"name": "inserter", "comparator": "=", "count": 3, "index": 3, "quality": "normal"},
+                  {"name": "transport-belt", "comparator": "=", "count": 3, "index": 4, "quality": "normal"},
+                  {"name": "medium-electric-pole", "comparator": "=", "count": 3, "index": 5, "quality": "normal"},
+                  {"name": "repair-pack", "comparator": "=", "count": 5, "index": 6, "quality": "normal"},
+                  {"name": "uranium-rounds-magazine", "comparator": "=", "count": 30, "index": 7, "quality": "normal"},
+                  {"name": "construction-robot", "comparator": "=", "count": 1, "index": 8, "quality": "normal"},
+                  {"name": "logistic-robot", "comparator": "=", "count": 1, "index": 9, "quality": "normal"}
+                ]
+              }
+            ]
+          }
+        },
+        "position": {"x": 0.5, "y": 0.5}
+      }
+    ],
+    "icons": [{"index": 1, "signal": {"name": "constant-combinator"}}]
+  }
+}

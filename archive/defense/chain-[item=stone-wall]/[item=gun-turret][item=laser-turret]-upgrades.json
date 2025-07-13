@@ -1,0 +1,39 @@
+{
+  "index": 3,
+  "blueprint": {
+    "item": "blueprint",
+    "label": "[item=gun-turret][item=laser-turret] - Upgrades",
+    "shift_x": -5,
+    "shift_y": 0,
+    "version": 562949957025792,
+    "entities": [
+      {"name": "gun-turret", "position": {"x": 0, "y": 0}},
+      {"name": "gun-turret", "position": {"x": 2, "y": 0}},
+      {"name": "gun-turret", "position": {"x": 6, "y": 0}},
+      {"name": "gun-turret", "position": {"x": 8, "y": 0}},
+      {"name": "inserter", "direction": 8, "position": {"x": 0.5, "y": 1.5}},
+      {"name": "inserter", "direction": 8, "position": {"x": 2.5, "y": 1.5}},
+      {"name": "inserter", "direction": 8, "position": {"x": 6.5, "y": 1.5}},
+      {"name": "inserter", "direction": 8, "position": {"x": 8.5, "y": 1.5}},
+      {"name": "laser-turret", "position": {"x": 4, "y": 0}},
+      {"name": "laser-turret", "position": {"x": 10, "y": 0}},
+      {"name": "medium-electric-pole", "position": {"x": -0.5, "y": 1.5}},
+      {"name": "medium-electric-pole", "position": {"x": 5.5, "y": 1.5}},
+      {"name": "medium-electric-pole", "position": {"x": 11.5, "y": 1.5}},
+      {"name": "small-lamp", "color": {"a": 1, "b": 1, "g": 1, "r": 1}, "position": {"x": 1.5, "y": 1.5}}
+    ],
+    "icons": [
+      {"index": 1, "signal": {"name": "gun-turret"}},
+      {"index": 2, "signal": {"name": "laser-turret"}},
+      {"index": 3, "signal": {"name": "small-lamp"}}
+    ],
+    "wires": [
+      ["0,1.5", 1, "6,1.5", 1],
+      ["0,1.5", 2, "6,1.5", 2],
+      ["0,1.5", 5, "6,1.5", 5],
+      ["6,1.5", 1, "12,1.5", 1],
+      ["6,1.5", 2, "12,1.5", 2],
+      ["6,1.5", 5, "12,1.5", 5]
+    ]
+  }
+}

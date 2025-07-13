@@ -1,0 +1,292 @@
+{
+  "index": 13,
+  "blueprint": {
+    "item": "blueprint",
+    "label": "Chain [item=stone-wall] -[item=train-stop]- [item=artillery-shell]",
+    "version": 562949957025792,
+    "entities": [
+      {
+        "name": "arithmetic-combinator",
+        "direction": 12,
+        "control_behavior": {
+          "arithmetic_conditions": {
+            "operation": "*",
+            "second_constant": -4,
+            "first_signal": {"name": "artillery-shell"},
+            "output_signal": {"name": "explosives"}
+          }
+        },
+        "position": {"x": 2, "y": 0.5}
+      },
+      {
+        "name": "arithmetic-combinator",
+        "direction": 12,
+        "control_behavior": {
+          "arithmetic_conditions": {
+            "operation": "*",
+            "second_constant": -8,
+            "first_signal": {"name": "artillery-shell"},
+            "output_signal": {"name": "explosive-cannon-shell"}
+          }
+        },
+        "position": {"x": 2, "y": 1.5}
+      },
+      {
+        "name": "arithmetic-combinator",
+        "direction": 12,
+        "control_behavior": {
+          "arithmetic_conditions": {
+            "operation": "*",
+            "second_constant": -1,
+            "first_signal": {"name": "artillery-shell"},
+            "output_signal": {"name": "radar"}
+          }
+        },
+        "position": {"x": 4, "y": 0.5}
+      },
+      {
+        "name": "arithmetic-combinator",
+        "direction": 12,
+        "control_behavior": {
+          "arithmetic_conditions": {
+            "operation": "*",
+            "second_constant": -1,
+            "first_signal": {"name": "signal-each", "type": "virtual"},
+            "output_signal": {"name": "signal-each", "type": "virtual"}
+          }
+        },
+        "position": {"x": 4, "y": 1.5}
+      },
+      {
+        "name": "assembling-machine-3",
+        "recipe": "artillery-shell",
+        "recipe_quality": "normal",
+        "position": {"x": -2.5, "y": 7.5}
+      },
+      {"name": "big-electric-pole", "position": {"x": 8, "y": -2}},
+      {
+        "name": "bulk-inserter",
+        "direction": 8,
+        "use_filters": true,
+        "control_behavior": {
+          "circuit_enabled": true,
+          "connect_to_logistic_network": true,
+          "logistic_condition": {"comparator": "<", "constant": 600, "first_signal": {"name": "uranium-rounds-magazine"}}
+        },
+        "filters": [{"name": "uranium-rounds-magazine", "comparator": "=", "index": 1, "quality": "normal"}],
+        "position": {"x": -1.5, "y": 1.5}
+      },
+      {
+        "name": "bulk-inserter",
+        "direction": 8,
+        "use_filters": true,
+        "control_behavior": {
+          "circuit_enabled": true,
+          "connect_to_logistic_network": true,
+          "logistic_condition": {"comparator": "<", "constant": 600, "first_signal": {"name": "uranium-rounds-magazine"}}
+        },
+        "filters": [{"name": "uranium-rounds-magazine", "comparator": "=", "index": 1, "quality": "normal"}],
+        "position": {"x": -0.5, "y": 1.5}
+      },
+      {
+        "name": "bulk-inserter",
+        "use_filters": true,
+        "control_behavior": {
+          "circuit_set_filters": true,
+          "connect_to_logistic_network": true,
+          "logistic_condition": {"comparator": "<", "constant": 40, "first_signal": {"name": "repair-pack"}}
+        },
+        "filters": [{"name": "repair-pack", "comparator": "=", "index": 1, "quality": "normal"}],
+        "position": {"x": -3.5, "y": 4.5}
+      },
+      {
+        "name": "bulk-inserter",
+        "use_filters": true,
+        "control_behavior": {"circuit_set_filters": true},
+        "filters": [{"name": "explosives", "comparator": "=", "index": 1, "quality": "normal"}],
+        "position": {"x": -2.5, "y": 4.5}
+      },
+      {
+        "name": "bulk-inserter",
+        "use_filters": true,
+        "control_behavior": {
+          "circuit_set_filters": true,
+          "connect_to_logistic_network": true,
+          "logistic_condition": {"comparator": "<", "constant": 48, "first_signal": {"name": "explosive-cannon-shell"}}
+        },
+        "filters": [{"name": "explosive-cannon-shell", "comparator": "=", "index": 1, "quality": "normal"}],
+        "position": {"x": -1.5, "y": 4.5}
+      },
+      {
+        "name": "bulk-inserter",
+        "use_filters": true,
+        "control_behavior": {
+          "circuit_set_filters": true,
+          "connect_to_logistic_network": true,
+          "logistic_condition": {"comparator": "<", "constant": 12, "first_signal": {"name": "radar"}}
+        },
+        "filters": [{"name": "radar", "comparator": "=", "index": 1, "quality": "normal"}],
+        "position": {"x": -0.5, "y": 4.5}
+      },
+      {
+        "name": "bulk-inserter",
+        "direction": 8,
+        "use_filters": true,
+        "control_behavior": {
+          "circuit_enabled": true,
+          "connect_to_logistic_network": true,
+          "logistic_condition": {"comparator": "<", "constant": 600, "first_signal": {"name": "uranium-rounds-magazine"}}
+        },
+        "filters": [{"name": "uranium-rounds-magazine", "comparator": "=", "index": 1, "quality": "normal"}],
+        "position": {"x": 0.5, "y": 1.5}
+      },
+      {
+        "name": "constant-combinator",
+        "direction": 4,
+        "control_behavior": {
+          "sections": {
+            "sections": [
+              {
+                "index": 1,
+                "filters": [
+                  {
+                    "name": "uranium-rounds-magazine",
+                    "comparator": "=",
+                    "count": 150,
+                    "index": 1,
+                    "quality": "normal"
+                  },
+                  {"name": "repair-pack", "comparator": "=", "count": 5, "index": 2, "quality": "normal"},
+                  {"name": "artillery-shell", "comparator": "=", "count": 5, "index": 3, "quality": "normal"}
+                ]
+              }
+            ]
+          }
+        },
+        "position": {"x": 5.5, "y": 1.5}
+      },
+      {
+        "name": "constant-combinator",
+        "direction": 12,
+        "control_behavior": {
+          "sections": {
+            "sections": [
+              {
+                "index": 1,
+                "filters": [
+                  {
+                    "name": "uranium-rounds-magazine",
+                    "comparator": "=",
+                    "count": 150,
+                    "index": 1,
+                    "quality": "normal"
+                  },
+                  {"name": "repair-pack", "comparator": "=", "count": 5, "index": 2, "quality": "normal"},
+                  {"name": "explosives", "comparator": "=", "count": 24, "index": 3, "quality": "normal"},
+                  {"name": "explosive-cannon-shell", "comparator": "=", "count": 12, "index": 4, "quality": "normal"},
+                  {"name": "radar", "comparator": "=", "count": 3, "index": 5, "quality": "normal"}
+                ]
+              }
+            ]
+          }
+        },
+        "position": {"x": 4.5, "y": 5.5}
+      },
+      {
+        "name": "decider-combinator",
+        "direction": 4,
+        "control_behavior": {
+          "decider_conditions": {
+            "conditions": [{"comparator": ">", "first_signal": {"name": "signal-anything", "type": "virtual"}}],
+            "outputs": [{"copy_count_from_input": false, "signal": {"name": "signal-green", "type": "virtual"}}]
+          }
+        },
+        "position": {"x": 4, "y": 4.5}
+      },
+      {
+        "name": "decider-combinator",
+        "direction": 4,
+        "control_behavior": {
+          "decider_conditions": {
+            "conditions": [{"constant": 1}],
+            "outputs": [{"signal": {"name": "signal-green", "type": "virtual"}}]
+          }
+        },
+        "position": {"x": 6, "y": 4.5}
+      },
+      {"name": "fast-inserter", "direction": 4, "position": {"x": -4.5, "y": 6.5}},
+      {"name": "fast-inserter", "direction": 4, "position": {"x": -0.5, "y": 6.5}},
+      {"name": "fast-inserter", "direction": 4, "position": {"x": -0.5, "y": 7.5}},
+      {"name": "medium-electric-pole", "position": {"x": -4.5, "y": 4.5}},
+      {"name": "medium-electric-pole", "position": {"x": 5.5, "y": 0.5}},
+      {"name": "medium-electric-pole", "position": {"x": 2.5, "y": 4.5}},
+      {"name": "medium-electric-pole", "position": {"x": 5.5, "y": 5.5}},
+      {"name": "passive-provider-chest", "position": {"x": -1.5, "y": 0.5}},
+      {"name": "passive-provider-chest", "position": {"x": -0.5, "y": 0.5}},
+      {"name": "passive-provider-chest", "position": {"x": -5.5, "y": 6.5}},
+      {"name": "passive-provider-chest", "bar": 1, "position": {"x": -3.5, "y": 5.5}},
+      {"name": "passive-provider-chest", "bar": 2, "position": {"x": -2.5, "y": 5.5}},
+      {"name": "passive-provider-chest", "position": {"x": -1.5, "y": 5.5}},
+      {"name": "passive-provider-chest", "position": {"x": -0.5, "y": 5.5}},
+      {"name": "passive-provider-chest", "position": {"x": 0.5, "y": 0.5}},
+      {
+        "name": "requester-chest",
+        "position": {"x": 0.5, "y": 6.5},
+        "request_filters": {
+          "sections": [
+            {
+              "index": 1,
+              "filters": [
+                {"name": "explosive-cannon-shell", "comparator": "=", "count": 10, "index": 2, "quality": "normal"},
+                {"name": "radar", "comparator": "=", "count": 2, "index": 3, "quality": "normal"}
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "name": "requester-chest",
+        "position": {"x": 0.5, "y": 7.5},
+        "request_filters": {
+          "sections": [
+            {
+              "index": 1,
+              "filters": [{"name": "explosives", "comparator": "=", "count": 20, "index": 1, "quality": "normal"}]
+            }
+          ]
+        }
+      },
+      {"name": "roboport", "position": {"x": 6, "y": -5}, "request_filters": {"sections": [{"index": 1}]}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": -3, "y": 3}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": -1, "y": 3}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": 1, "y": 3}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": 3, "y": 3}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": 5, "y": 3}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": 7, "y": 3}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": 9, "y": 3}}
+    ],
+    "icons": [
+      {"index": 1, "signal": {"name": "rail"}},
+      {"index": 2, "signal": {"name": "passive-provider-chest"}}
+    ],
+    "wires": [
+      ["11.5,0", 1, "11,5.5", 1],
+      ["11.5,0", 2, "13.5,3", 2],
+      ["13.5,3", 1, "11,6.5", 1],
+      ["13.5,3", 5, "11,5.5", 5],
+      ["13.5,3", 5, "8,9.5", 5],
+      ["13.5,3", 5, "11,10.5", 5],
+      ["7.5,6.5", 1, "7.5,5.5", 1],
+      ["7.5,6.5", 4, "7.5,5.5", 4],
+      ["7.5,5.5", 1, "9.5,5.5", 1],
+      ["7.5,5.5", 4, "9.5,5.5", 4],
+      ["9.5,6.5", 1, "9.5,5.5", 1],
+      ["9.5,6.5", 4, "9.5,5.5", 4],
+      ["9.5,6.5", 4, "9.5,9.5", 2],
+      ["9.5,5.5", 1, "11,5.5", 1],
+      ["1,9.5", 5, "8,9.5", 5],
+      ["9.5,9.5", 2, "10,10.5", 2],
+      ["9.5,9.5", 3, "11.5,9.5", 1]
+    ]
+  }
+}
